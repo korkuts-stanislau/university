@@ -1,0 +1,111 @@
+.title{
+	font-size: 40px;
+	font-style:bold;
+	color: gold;
+}
+.FIO{
+	color:gold;
+	padding:10px;
+	font-size: 25px;
+	font-style: italic;
+}
+.Main{
+	border-style: ridge;
+	color:gold;
+	padding:10px;
+	font-size: 50px;
+	font-style:bold;
+	position: absolute;
+	top:800px;
+	width:97%;
+}
+body{
+	background-image: url(images/BG.jpg);
+	color:gold;
+}
+ul{
+	font-size: 30px;
+	padding:30px;
+	color:gold;
+	font-style:italic;
+	border-style:groove;
+	border-color: gold;
+
+}
+li{
+	padding:50px;
+}
+.link{
+    color:gold;
+}
+.Ogl{
+	font-size: 60px;
+	font-style: bold;
+	color:gold;
+}
+td img{
+	padding: 30px;
+}
+.GSTU{
+	width:1450px;
+	padding:10px;
+}
+.Navi{
+	color:gold;
+	font-size: 60px;
+	padding:10px;
+}
+.Stas{
+	width:880px;
+	position:absolute;
+	left:600px;
+}
+.Biog div{
+	font-size: 20px;
+	color:gold;
+	position:absolute;
+	top:10px;
+}
+footer {
+	position:absolute;
+	top: 980px; 
+	left:50%;
+	margin-bottom: 20px;
+}
+.Biog .text{
+	font-style: italic;
+	font-size: 21px;
+}
+.swim{
+	color:gold;
+	font-size: 30px;
+	font-style: bold;
+}
+.next{
+	font-size: 50px;
+	color:gold;
+}
+.spCube{
+	color:gold;
+	font-size: 30px;
+	font-style: italic;
+}
+.spCube1{
+	color:gold;
+	font-size: 50px;
+	font-style: bold;
+	padding: 10px;
+}
+A {
+	color:gold;
+}
+.progger p{
+	font-size: 20px;
+	margin-top:15%; 
+}
+.vi{
+	font-size: 40px;
+}
+.ppp{
+	font-size: 30px;
+}

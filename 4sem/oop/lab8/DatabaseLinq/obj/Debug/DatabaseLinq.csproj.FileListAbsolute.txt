@@ -1,0 +1,5 @@
+D:\korkuts-itp21-oop\lab8\DatabaseLinq\obj\Debug\DatabaseLinq.csprojAssemblyReference.cache
+D:\korkuts-itp21-oop\lab8\DatabaseLinq\bin\Debug\DatabaseLinq.dll
+D:\korkuts-itp21-oop\lab8\DatabaseLinq\bin\Debug\DatabaseLinq.pdb
+D:\korkuts-itp21-oop\lab8\DatabaseLinq\obj\Debug\DatabaseLinq.dll
+D:\korkuts-itp21-oop\lab8\DatabaseLinq\obj\Debug\DatabaseLinq.pdb

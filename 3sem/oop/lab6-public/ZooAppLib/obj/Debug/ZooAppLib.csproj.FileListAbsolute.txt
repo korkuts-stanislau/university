@@ -1,0 +1,10 @@
+C:\korkuts_itp-21_oop\lab6\ZooAppLib\bin\Debug\ZooAppLib.dll
+C:\korkuts_itp-21_oop\lab6\ZooAppLib\bin\Debug\ZooAppLib.pdb
+C:\korkuts_itp-21_oop\lab6\ZooAppLib\obj\Debug\ZooAppLib.csprojAssemblyReference.cache
+C:\korkuts_itp-21_oop\lab6\ZooAppLib\obj\Debug\ZooAppLib.dll
+C:\korkuts_itp-21_oop\lab6\ZooAppLib\obj\Debug\ZooAppLib.pdb
+C:\korkuts_itp-21_oop\lab6-public\ZooAppLib\bin\Debug\ZooAppLib.dll
+C:\korkuts_itp-21_oop\lab6-public\ZooAppLib\bin\Debug\ZooAppLib.pdb
+C:\korkuts_itp-21_oop\lab6-public\ZooAppLib\obj\Debug\ZooAppLib.csprojAssemblyReference.cache
+C:\korkuts_itp-21_oop\lab6-public\ZooAppLib\obj\Debug\ZooAppLib.dll
+C:\korkuts_itp-21_oop\lab6-public\ZooAppLib\obj\Debug\ZooAppLib.pdb

@@ -1,0 +1,14 @@
+C:\korkuts_itp-21_oop\lab6-private\ZooApp\bin\Debug\ZooApp.exe.config
+C:\korkuts_itp-21_oop\lab6-private\ZooApp\bin\Debug\ZooApp.exe
+C:\korkuts_itp-21_oop\lab6-private\ZooApp\bin\Debug\ZooApp.pdb
+C:\korkuts_itp-21_oop\lab6-private\ZooApp\bin\Debug\ZooLib.dll
+C:\korkuts_itp-21_oop\lab6-private\ZooApp\bin\Debug\ZooLib.pdb
+C:\korkuts_itp-21_oop\lab6-private\ZooApp\obj\Debug\ZooApp.csprojAssemblyReference.cache
+C:\korkuts_itp-21_oop\lab6-private\ZooApp\obj\Debug\ZooApp.Properties.Resources.resources
+C:\korkuts_itp-21_oop\lab6-private\ZooApp\obj\Debug\ZooApp.csproj.GenerateResource.cache
+C:\korkuts_itp-21_oop\lab6-private\ZooApp\obj\Debug\ZooApp.csproj.CopyComplete
+C:\korkuts_itp-21_oop\lab6-private\ZooApp\obj\Debug\ZooApp.exe
+C:\korkuts_itp-21_oop\lab6-private\ZooApp\obj\Debug\ZooApp.pdb
+C:\korkuts_itp-21_oop\lab6-private\ZooApp\obj\Debug\ZooApp.MainForm.resources
+C:\korkuts_itp-21_oop\lab6-private\ZooApp\obj\Debug\ZooApp.AddPet.resources
+C:\korkuts_itp-21_oop\lab6-private\ZooApp\obj\Debug\ZooApp.EditPet.resources

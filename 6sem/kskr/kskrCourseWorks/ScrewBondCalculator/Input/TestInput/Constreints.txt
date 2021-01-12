@@ -1,0 +1,11 @@
+
+ LIST CONSTRAINTS FOR SELECTED NODES        1 TO     293 BY       1
+ CURRENTLY SELECTED DOF SET= UX   UY  
+ 
+     NODE  LABEL     REAL           IMAG
+       13  UX     0.00000000      0.00000000    
+       14  UX     0.00000000      0.00000000    
+       66  UX     0.00000000      0.00000000    
+       67  UX     0.00000000      0.00000000    
+       68  UX     0.00000000      0.00000000    
+

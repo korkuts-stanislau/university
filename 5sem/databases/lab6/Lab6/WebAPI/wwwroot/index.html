@@ -1,0 +1,333 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Список комплектующих</title>
+    <link href="lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <link href="lib/jquery-ui/themes/base/jquery-ui.min.css" rel="stylesheet" />
+    <script src="lib/jquery-ui/jquery-ui.js"></script>
+    <script src="lib/jquery-ui/ui/i18n/datepicker-ru.js"></script>
+</head>
+<body>
+    <h2 class="align-items-center">Список комплектующих</h2>
+    <form name="componentForm" class="align-items-center">
+        <input type="hidden" name="componentId" value="0" />
+        <div class="form-group col-md-5">
+            <label for="componentTypeName">Тип компонента:</label>
+            <select id="componentTypeId" name="componentTypeId"></select>
+        </div>
+        <div class="form-group col-md-5">
+            <label for="model">Модель:</label>
+            <input class="form-control" name="model" />
+        </div>
+        <div class="form-group col-md-5">
+            <label for="manufacturerName">Производитель:</label>
+            <select id="manufacturerId" name="manufacturerId"></select>
+        </div>
+        <div class="form-group col-md-5">
+            <label for="countryName">Страна:</label>
+            <select id="countryId" name="countryId"></select>
+        </div>
+        <div class="form-group col-md-5">
+            <label for="releaseDate">Дата релиза:</label>
+            <input class="form-control" name="releaseDate" />
+        </div>
+        <div class="form-group col-md-5">
+            <label for="characteristics">Характеристики:</label>
+            <input class="form-control" name="characteristics" />
+        </div>
+        <div class="form-group col-md-5">
+            <label for="warrantyInMonths">Гарантия в месяцах:</label>
+            <input type="number" min="0" class="form-control" name="warrantyInMonths" />
+        </div>
+        <div class="form-group col-md-5">
+            <label for="description">Описание:</label>
+            <input class="form-control" name="description" />
+        </div>
+        <div class="form-group col-md-5">
+            <label for="price">Цена:</label>
+            <input type="number" step="0.01" min="1" class="form-control" name="price" />
+        </div>
+        <div class="panel-body">
+            <button type="submit" id="submit" class="btn btn-outline-dark">Сохранить</button>
+            <a id="reset" class="btn btn-outline-dark">Сброс</a>
+        </div>
+    </form>
+    <table class="table border-dark align-content-center">
+        <thead>
+            <tr>
+                <th>Тип компонента</th>
+                <th>Модель</th>
+                <th>Производитель</th>
+                <th>Страна</th>
+                <th>Дата релиза</th>
+                <th>Характеристики</th>
+                <th>Гарантия</th>
+                <th>Описание</th>
+                <th>Цена</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script>
+        async function GetComponents() {
+            const response = await fetch("/api/components", {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const components = await response.json();
+                let rows = document.querySelector("tbody");
+                components.forEach(component => {
+                    rows.append(row(component));
+                });
+            }
+        }
+        async function GetComponent(id) {
+            $.ajax({
+                url: '/api/components/' + id,
+                type: 'GET',
+                contentType: "application/json",
+                success: function (component) {
+                    var form = document.forms["componentForm"];
+                    form.elements["componentId"].value = component.id;
+                    form.elements["componentTypeId"].value = component.componentTypeId;
+                    form.elements["model"].value = component.model;
+                    form.elements["manufacturerId"].value = component.manufacturerId;
+                    form.elements["countryId"].value = component.countryId;
+                    form.elements["releaseDate"].value = component.releaseDate;
+                    form.elements["characteristics"].value = component.characteristics;
+                    form.elements["warrantyInMonths"].value = component.warrantyInMonths;
+                    form.elements["description"].value = component.description;
+                    form.elements["price"].value = component.price;
+                }
+            });
+        }
+        async function CreateComponent(componentTypeId, model, manufacturerId,
+            countryId, releaseDate, characteristics, warrantyInMonths, description, price) {
+
+            $.ajax({
+                url: "api/components/",
+                contentType: "application/json",
+                method: "POST",
+                data: JSON.stringify({
+                    componentTypeId: parseInt(componentTypeId, 10),
+                    model: model,
+                    manufacturerId: parseInt(manufacturerId, 10),
+                    countryId: parseInt(countryId, 10),
+                    releaseDate: releaseDate,
+                    characteristics: characteristics,
+                    warrantyInMonths: parseInt(warrantyInMonths, 10),
+                    description: description,
+                    price: parseFloat(price)
+                }),
+                success: function (component) {
+                    reset();
+                    var form = document.forms["componentForm"];
+                    component.componentTypeName = form.elements["componentTypeId"].options[componentTypeId].text;
+                    component.manufacturerName = form.elements["manufacturerId"].options[manufacturerId].text;
+                    component.countryName = form.elements["countryId"].options[countryId].text;
+                    document.querySelector("tbody").append(row(component));
+                }
+            })
+        }
+        async function EditComponent(componentId, componentTypeId, model, manufacturerId,
+            countryId, releaseDate, characteristics, warrantyInMonths, description, price) {
+            $.ajax({
+                url: "api/components/",
+                contentType: "application/json",
+                method: "PUT",
+                data: JSON.stringify({
+                    id: parseInt(componentId, 10),
+                    componentTypeId: parseInt(componentTypeId, 10),
+                    model: model,
+                    manufacturerId: parseInt(manufacturerId, 10),
+                    countryId: parseInt(countryId, 10),
+                    releaseDate: releaseDate,
+                    characteristics: characteristics,
+                    warrantyInMonths: parseInt(warrantyInMonths, 10),
+                    description: description,
+                    price: parseFloat(price)
+                }),
+                success: function (component) {
+                    reset();
+                    var form = document.forms["componentForm"];
+                    component.componentTypeName = form.elements["componentTypeId"].options[componentTypeId].text;
+                    component.manufacturerName = form.elements["manufacturerId"].options[manufacturerId].text;
+                    component.countryName = form.elements["countryId"].options[countryId].text;
+                    document.querySelector("tr[data-rowid='" + component.componentId + "']").replaceWith(row(component));
+                }
+            })
+        }
+        async function DeleteComponent(id) {
+            const response = await fetch("/api/components/" + id, {
+                method: "DELETE",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const component = await response.json();
+                document.querySelector("tr[data-rowid='" + component.id + "']").remove();
+            }
+        }
+
+        function GetComponentTypes() {
+            var listItems = "";
+            $.ajax({
+                url: '/api/components/componentTypes',
+                type: 'GET',
+                contentType: "application/json",
+                success: function (componentTypes) {
+                    listItems = listItems + "<option value=0 selected>(выбор)</option>";
+                    $.each(componentTypes, function (index, componentType) {
+                        listItems = listItems + "<option value='" + componentType.id + "'>" + componentType.name + "</option>";
+                    });
+                    $("#componentTypeId").html(listItems);
+                }
+            });
+        }
+
+        function GetManufacturers() {
+            var listItems = "";
+            $.ajax({
+                url: '/api/components/manufacturers',
+                type: 'GET',
+                contentType: "application/json",
+                success: function (manufacturers) {
+                    listItems = listItems + "<option value=0 selected>(выбор)</option>";
+                    $.each(manufacturers, function (index, manufacturer) {
+                        listItems = listItems + "<option value='" + manufacturer.id + "'>" + manufacturer.name + "</option>";
+                    });
+                    $("#manufacturerId").html(listItems);
+                }
+            });
+        }
+
+        function GetCountries() {
+            var listItems = "";
+            $.ajax({
+                url: '/api/components/countries',
+                type: 'GET',
+                contentType: "application/json",
+                success: function (countries) {
+                    listItems = listItems + "<option value=0 selected>(выбор)</option>";
+                    $.each(countries, function (index, country) {
+                        listItems = listItems + "<option value='" + country.id + "'>" + country.name + "</option>";
+                    });
+                    $("#countryId").html(listItems);
+                }
+            });
+        }
+
+        function reset() {
+            const form = document.forms["componentForm"];
+            form.reset();
+            form.elements["componentId"].value = 0;
+        }
+
+        function row(component) {
+
+            const tr = document.createElement("tr");
+            tr.setAttribute("data-rowid", component.id);
+
+            const componentTypeIdTd = document.createElement("td");
+            componentTypeIdTd.append(component.componentTypeName);
+            tr.append(componentTypeIdTd);
+
+            const modelTd = document.createElement("td");
+            modelTd.append(component.model);
+            tr.append(modelTd);
+
+            const manufacturerIdTd = document.createElement("td");
+            manufacturerIdTd.append(component.manufacturerName);
+            tr.append(manufacturerIdTd);
+
+            const countryTd = document.createElement("td");
+            countryTd.append(component.countryName);
+            tr.append(countryTd);
+
+            const releaseDateTd = document.createElement("td");
+            releaseDateTd.append(component.releaseDate);
+            tr.append(releaseDateTd);
+
+            const characteristicsTd = document.createElement("td");
+            characteristicsTd.append(component.characteristics);
+            tr.append(characteristicsTd);
+
+            const warrantyInMonthsTd = document.createElement("td");
+            warrantyInMonthsTd.append(component.warrantyInMonths);
+            tr.append(warrantyInMonthsTd);
+
+            const descriptionTd = document.createElement("td");
+            descriptionTd.append(component.description);
+            tr.append(descriptionTd);
+
+            const priceTd = document.createElement("td");
+            priceTd.append(component.price);
+            tr.append(priceTd);
+
+            const linksTd = document.createElement("td");
+
+            const editLink = document.createElement("a");
+            editLink.setAttribute("data-id", component.id);
+            editLink.setAttribute("style", "cursor:pointer;padding:15px;");
+            editLink.append("Изменить");
+            editLink.addEventListener("click", e => {
+
+                e.preventDefault();
+                GetComponent(component.id);
+            });
+            linksTd.append(editLink);
+
+            const removeLink = document.createElement("a");
+            removeLink.setAttribute("data-id", component.id);
+            removeLink.setAttribute("style", "cursor:pointer;padding:15px;");
+            removeLink.append("Удалить");
+            removeLink.addEventListener("click", e => {
+
+                e.preventDefault();
+                DeleteComponent(component.id);
+            });
+
+            linksTd.append(removeLink);
+            tr.appendChild(linksTd);
+
+            return tr;
+        }
+
+        $("#reset").click(function (e) {
+            e.preventDefault();
+            reset();
+        })
+
+        document.forms["componentForm"].addEventListener("submit", e => {
+            e.preventDefault();
+            const form = document.forms["componentForm"];
+            const id = form.elements["componentId"].value;
+            const componentTypeId = form.elements["componentTypeId"].value;
+            const model = form.elements["model"].value;
+            const manufacturerId = form.elements["manufacturerId"].value;
+            const countryId = form.elements["countryId"].value;
+            const releaseDate = form.elements["releaseDate"].value;
+            const characteristics = form.elements["characteristics"].value;
+            const warrantyInMonths = form.elements["warrantyInMonths"].value;
+            const description = form.elements["description"].value;
+            const price = form.elements["price"].value;
+            if (id == 0)
+                CreateComponent(componentTypeId, model, manufacturerId,
+                    countryId, releaseDate, characteristics, warrantyInMonths, description, price);
+            else
+                EditComponent(id, componentTypeId, model, manufacturerId,
+                    countryId, releaseDate, characteristics, warrantyInMonths, description, price);
+        });
+
+        GetComponents();
+        GetComponentTypes();
+        GetManufacturers();
+        GetCountries();
+    </script>
+</body>
+</html>

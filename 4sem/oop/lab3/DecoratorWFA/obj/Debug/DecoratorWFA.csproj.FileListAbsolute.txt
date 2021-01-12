@@ -1,0 +1,12 @@
+D:\korkuts-itp21-oop\lab3\DecoratorWFA\bin\Debug\DecoratorWFA.exe.config
+D:\korkuts-itp21-oop\lab3\DecoratorWFA\bin\Debug\DecoratorWFA.exe
+D:\korkuts-itp21-oop\lab3\DecoratorWFA\bin\Debug\DecoratorWFA.pdb
+D:\korkuts-itp21-oop\lab3\DecoratorWFA\bin\Debug\DecoratorLib.dll
+D:\korkuts-itp21-oop\lab3\DecoratorWFA\bin\Debug\DecoratorLib.pdb
+D:\korkuts-itp21-oop\lab3\DecoratorWFA\obj\Debug\DecoratorWFA.csprojAssemblyReference.cache
+D:\korkuts-itp21-oop\lab3\DecoratorWFA\obj\Debug\DecoratorWFA.Form1.resources
+D:\korkuts-itp21-oop\lab3\DecoratorWFA\obj\Debug\DecoratorWFA.Properties.Resources.resources
+D:\korkuts-itp21-oop\lab3\DecoratorWFA\obj\Debug\DecoratorWFA.csproj.GenerateResource.cache
+D:\korkuts-itp21-oop\lab3\DecoratorWFA\obj\Debug\DecoratorWFA.csproj.CopyComplete
+D:\korkuts-itp21-oop\lab3\DecoratorWFA\obj\Debug\DecoratorWFA.exe
+D:\korkuts-itp21-oop\lab3\DecoratorWFA\obj\Debug\DecoratorWFA.pdb

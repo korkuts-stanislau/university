@@ -1,0 +1,5 @@
+D:\korkuts-itp21-oop\lab7\ADO\bin\Debug\ADO.dll
+D:\korkuts-itp21-oop\lab7\ADO\bin\Debug\ADO.pdb
+D:\korkuts-itp21-oop\lab7\ADO\obj\Debug\ADO.csprojAssemblyReference.cache
+D:\korkuts-itp21-oop\lab7\ADO\obj\Debug\ADO.dll
+D:\korkuts-itp21-oop\lab7\ADO\obj\Debug\ADO.pdb

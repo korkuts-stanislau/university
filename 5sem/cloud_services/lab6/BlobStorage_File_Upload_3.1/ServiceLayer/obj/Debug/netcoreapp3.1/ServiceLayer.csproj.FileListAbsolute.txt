@@ -1,0 +1,24 @@
+F:\Personal_Code_Work\WorkThrough_Sample\Asp.Net_Core\Azure_Related\BlobStorage_File_Upload\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.deps.json
+F:\Personal_Code_Work\WorkThrough_Sample\Asp.Net_Core\Azure_Related\BlobStorage_File_Upload\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.dll
+F:\Personal_Code_Work\WorkThrough_Sample\Asp.Net_Core\Azure_Related\BlobStorage_File_Upload\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.pdb
+F:\Personal_Code_Work\WorkThrough_Sample\Asp.Net_Core\Azure_Related\BlobStorage_File_Upload\ServiceLayer\bin\Debug\netcoreapp3.1\DataContext.dll
+F:\Personal_Code_Work\WorkThrough_Sample\Asp.Net_Core\Azure_Related\BlobStorage_File_Upload\ServiceLayer\bin\Debug\netcoreapp3.1\DataContext.pdb
+F:\Personal_Code_Work\WorkThrough_Sample\Asp.Net_Core\Azure_Related\BlobStorage_File_Upload\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.csprojAssemblyReference.cache
+F:\Personal_Code_Work\WorkThrough_Sample\Asp.Net_Core\Azure_Related\BlobStorage_File_Upload\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.AssemblyInfoInputs.cache
+F:\Personal_Code_Work\WorkThrough_Sample\Asp.Net_Core\Azure_Related\BlobStorage_File_Upload\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.AssemblyInfo.cs
+F:\Personal_Code_Work\WorkThrough_Sample\Asp.Net_Core\Azure_Related\BlobStorage_File_Upload\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.csproj.CoreCompileInputs.cache
+F:\Personal_Code_Work\WorkThrough_Sample\Asp.Net_Core\Azure_Related\BlobStorage_File_Upload\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.csproj.CopyComplete
+F:\Personal_Code_Work\WorkThrough_Sample\Asp.Net_Core\Azure_Related\BlobStorage_File_Upload\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.dll
+F:\Personal_Code_Work\WorkThrough_Sample\Asp.Net_Core\Azure_Related\BlobStorage_File_Upload\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.pdb
+C:\Users\stani\OneDrive\Рабочий стол\BlobStorage_File_Upload_3.1\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.deps.json
+C:\Users\stani\OneDrive\Рабочий стол\BlobStorage_File_Upload_3.1\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.dll
+C:\Users\stani\OneDrive\Рабочий стол\BlobStorage_File_Upload_3.1\ServiceLayer\bin\Debug\netcoreapp3.1\ServiceLayer.pdb
+C:\Users\stani\OneDrive\Рабочий стол\BlobStorage_File_Upload_3.1\ServiceLayer\bin\Debug\netcoreapp3.1\DataContext.dll
+C:\Users\stani\OneDrive\Рабочий стол\BlobStorage_File_Upload_3.1\ServiceLayer\bin\Debug\netcoreapp3.1\DataContext.pdb
+C:\Users\stani\OneDrive\Рабочий стол\BlobStorage_File_Upload_3.1\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.csprojAssemblyReference.cache
+C:\Users\stani\OneDrive\Рабочий стол\BlobStorage_File_Upload_3.1\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.AssemblyInfoInputs.cache
+C:\Users\stani\OneDrive\Рабочий стол\BlobStorage_File_Upload_3.1\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.AssemblyInfo.cs
+C:\Users\stani\OneDrive\Рабочий стол\BlobStorage_File_Upload_3.1\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.csproj.CoreCompileInputs.cache
+C:\Users\stani\OneDrive\Рабочий стол\BlobStorage_File_Upload_3.1\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.csproj.CopyComplete
+C:\Users\stani\OneDrive\Рабочий стол\BlobStorage_File_Upload_3.1\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.dll
+C:\Users\stani\OneDrive\Рабочий стол\BlobStorage_File_Upload_3.1\ServiceLayer\obj\Debug\netcoreapp3.1\ServiceLayer.pdb

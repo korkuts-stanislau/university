@@ -1,0 +1,12 @@
+D:\korkuts-itp21-oop\lab7\SubjectsEditor\bin\Debug\SubjectsEditor.exe.config
+D:\korkuts-itp21-oop\lab7\SubjectsEditor\bin\Debug\SubjectsEditor.exe
+D:\korkuts-itp21-oop\lab7\SubjectsEditor\bin\Debug\SubjectsEditor.pdb
+D:\korkuts-itp21-oop\lab7\SubjectsEditor\bin\Debug\ADO.dll
+D:\korkuts-itp21-oop\lab7\SubjectsEditor\bin\Debug\ADO.pdb
+D:\korkuts-itp21-oop\lab7\SubjectsEditor\obj\Debug\SubjectsEditor.csprojAssemblyReference.cache
+D:\korkuts-itp21-oop\lab7\SubjectsEditor\obj\Debug\SubjectsEditor.Properties.Resources.resources
+D:\korkuts-itp21-oop\lab7\SubjectsEditor\obj\Debug\SubjectsEditor.csproj.GenerateResource.cache
+D:\korkuts-itp21-oop\lab7\SubjectsEditor\obj\Debug\SubjectsEditor.csproj.CopyComplete
+D:\korkuts-itp21-oop\lab7\SubjectsEditor\obj\Debug\SubjectsEditor.exe
+D:\korkuts-itp21-oop\lab7\SubjectsEditor\obj\Debug\SubjectsEditor.pdb
+D:\korkuts-itp21-oop\lab7\SubjectsEditor\obj\Debug\SubjectsEditor.MainForm.resources

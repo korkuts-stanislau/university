@@ -1,0 +1,5 @@
+C:\korkuts_itp-21_oop\lab7\AutoLib\bin\Debug\AutoLib.dll
+C:\korkuts_itp-21_oop\lab7\AutoLib\bin\Debug\AutoLib.pdb
+C:\korkuts_itp-21_oop\lab7\AutoLib\obj\Debug\AutoLib.csprojAssemblyReference.cache
+C:\korkuts_itp-21_oop\lab7\AutoLib\obj\Debug\AutoLib.dll
+C:\korkuts_itp-21_oop\lab7\AutoLib\obj\Debug\AutoLib.pdb

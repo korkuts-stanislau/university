@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KorNet® SpeedSolving</title>
+	<meta name="description" content="Алгоритмы сборки WCA головоломок, в частности кубика Рубика."> <!-- Описание сайта в гугле -->
+	<meta name="keywords" content="Кубик, Рубик, Сборка, Спидкубинг, Алгоритмы, Скоростная">    <!-- Ключевые слова при поиске в гугле -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/ico.ico" type="image/x-icon">
+	<!-- Подключение библиотек -->
+
+	<script src="js\jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap\js\bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+		<!-- ___________ШАПКА САЙТА____________ -->
+		<header class="header">
+			
+			<nav class="menu navbar navbar-expand-lg navbar-light bg-light fixed-top">
+				
+				<a href="index.html" class="navbar-brand">
+					<img height="65px" src="img\Logo.png" alt="logo">
+				</a>
+
+				<!-- Кнопка, в которой скрывается меню при уменьшении экрана -->
+
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<!-- Адаптивное меню -->
+
+				<div class="collapse navbar-collapse" id="collapse_target">
+					<ul class="navbar-nav mr-auto">
+						
+						<!-- Главная -->
+
+						<li class="nav.item active">
+							<a class="nav-link" href="index.html">Главная</a>
+						</li>
+						
+						<!-- Головоломки + Выплывающий список -->
+						
+						<li class="nav.item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+								Головоломки
+								<span class="caret"></span>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown_target">
+								
+								<a class="menu__item dropdown-item" href="3x3x3.html">Кубик Рубика 3х3х3</a>
+								<a class="menu__item dropdown-item" href="2x2x2.html">Кубик Рубика 2x2x2</a>
+								
+							</div>
+						</li>
+						
+						<!-- Алгоритмы + Выплывающий список -->
+
+						<li class="nav.item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+								База алгоритмов
+								<span class="caret"></span>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown_target">
+								
+								<a class="menu__item dropdown-item" href="3x3x3algs.html">Кубик Рубика 3х3х3</a>
+								<a class="menu__item dropdown-item" href="2x2x2algs.html">Кубик Рубика 2x2x2</a>
+								
+							</div>
+						</li>
+
+						<!-- Таймер -->
+
+						<li class="nav.item">
+							<a class="nav-link" href="timer.html">Таймер</a>
+						</li>
+
+					</ul>
+				</div>
+			</nav>
+
+		</header>	
+
+
+
+            <!-- КОНТЕЙНЕР ДЛЯ СТРАНИЦЫ -->
+
+            <div class="wrapper">
+
+			<!-- Основной контент страницы -->
+
+
+			<div class="content">
+				<div class="height">
+					
+				</div>
+
+					
+
+				<div class="container">	
+					<div class="text">
+						<center><h1 class="mainpage">Kornet Speedsolving</h1></center>
+						<div class="watercube">
+							<center><img width="100%" src="img/watercube.jpg"></center>
+						</div>
+
+						<br>
+						<p>
+							Спидкубинг (от англ. speedcubing) - новое увлечение, недавно пришедшее в страны СНГ, заключающееся в сборке кубика на скорость.
+							<br><br>
+							Можно сказать, что к настоящему моменту мировой и, в частности, русский спидкубинг довольно-таки развиты: регулярно устраиваются открытые чемпионаты, в которых могут принять участие все желающие, количество куберов растет потрясающими темпами, разрабатываются все более совершенные алгоритмы сборки кубика, позволяя спидкуберам достигать немыслимых результатов, о которых еще пару лет назад никто даже и не мечтал.
+							<br><br>
+							На этом сайте вы узнаете о различных головоломках, которые являются категориями на мировых соревнованиях.(WCA)
+							<br><br>
+							А также найдёте множество очень полезных алгоритмов для них.
+							Алгоритмы представлены для нескольких уровней скорости сборки.В основном они делятся на <span class="newbe">... - 2 минуты</span>, <span class="medium">2 минуты - 20 секунд</span> и <span class="prof">20 секунд - ...</span>
+							<br><br>
+							Я надеюсь, благодаря этому сайту вы научитесь собирать любые головоломки за считаные секунды, и сможете удивлять всех людей скоростью своих рук и гибкостью ума.
+						</p>
+					</div>
+
+				</div>
+
+		</div>
+
+									
+	</div>
+			<!-- Подвал сайта -->
+
+			<footer class="navbar-fixed-bottom row-fluid footer">
+				<div class="navbar-inner">
+				<div class="container">
+					
+					<div class="me">
+						Copyright ©  Коркуц Станислав 2018 г.<br>  Все права защищены.
+					</div>	
+
+					<div class="icons">
+						
+						<a href="https://www.youtube.com/channel/UC4wIOkCE0eNx-mvK6BgWTIA">
+							<img class="icon" src="img/LogoYT.png">
+						</a>
+
+						<a href="https://vk.com/korkutsstas">
+							<img class="icon iconVK" src="img/LogoVK.png">
+						</a>
+						
+						<a href="https://www.instagram.com/kor_4_net/">
+							<img class="icon" src="img/LogoInst.png">
+						</a>
+							
+					</div>
+
+				</div>
+				</div>
+			</footer>
+
+
+			</div>
+			<!-- КОНТЕЙНЕР ДЛЯ СТРАНИЦЫ -->
+
+</body>
+</html>

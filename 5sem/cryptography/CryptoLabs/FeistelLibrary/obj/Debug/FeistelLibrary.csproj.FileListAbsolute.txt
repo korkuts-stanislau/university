@@ -1,0 +1,9 @@
+C:\Users\saymo\source\repos\CryptoLabs\FeistelLibrary\bin\Debug\FeistelLibrary.dll
+C:\Users\saymo\source\repos\CryptoLabs\FeistelLibrary\bin\Debug\FeistelLibrary.pdb
+C:\Users\saymo\source\repos\CryptoLabs\FeistelLibrary\bin\Debug\CryptoLibrary.dll
+C:\Users\saymo\source\repos\CryptoLabs\FeistelLibrary\bin\Debug\CryptoLibrary.pdb
+C:\Users\saymo\source\repos\CryptoLabs\FeistelLibrary\obj\Debug\FeistelLibrary.csprojAssemblyReference.cache
+C:\Users\saymo\source\repos\CryptoLabs\FeistelLibrary\obj\Debug\FeistelLibrary.csproj.CoreCompileInputs.cache
+C:\Users\saymo\source\repos\CryptoLabs\FeistelLibrary\obj\Debug\FeistelLibrary.csproj.CopyComplete
+C:\Users\saymo\source\repos\CryptoLabs\FeistelLibrary\obj\Debug\FeistelLibrary.dll
+C:\Users\saymo\source\repos\CryptoLabs\FeistelLibrary\obj\Debug\FeistelLibrary.pdb

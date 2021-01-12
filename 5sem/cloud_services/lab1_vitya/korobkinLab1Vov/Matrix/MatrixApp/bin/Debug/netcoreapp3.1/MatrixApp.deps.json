@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MatrixApp/1.0.0": {
+        "dependencies": {
+          "MatrixLib": "1.0.0"
+        },
+        "runtime": {
+          "MatrixApp.dll": {}
+        }
+      },
+      "MatrixLib/1.0.0": {
+        "runtime": {
+          "MatrixLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MatrixApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MatrixLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

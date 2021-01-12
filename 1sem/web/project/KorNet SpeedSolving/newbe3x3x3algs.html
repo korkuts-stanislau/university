@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KorNet® SpeedSolving</title>
+	<meta name="description" content="Алгоритмы сборки WCA головоломок, в частности кубика Рубика."> <!-- Описание сайта в гугле -->
+	<meta name="keywords" content="Кубик, Рубик, Сборка, Спидкубинг, Алгоритмы, Скоростная">    <!-- Ключевые слова при поиске в гугле -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/ico.ico" type="image/x-icon">
+	<!-- Подключение библиотек -->
+
+	<script src="js\jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap\js\bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+		<!-- ___________ШАПКА САЙТА____________ -->
+		<header class="header">
+			
+			<nav class="menu navbar navbar-expand-lg navbar-light bg-light fixed-top">
+				
+				<a href="index.html" class="navbar-brand">
+					<img height="65px" src="img\Logo.png" alt="logo">
+				</a>
+
+				<!-- Кнопка, в которой скрывается меню при уменьшении экрана -->
+
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<!-- Адаптивное меню -->
+
+				<div class="collapse navbar-collapse" id="collapse_target">
+					<ul class="navbar-nav mr-auto">
+						
+						<!-- Главная -->
+
+						<li class="nav.item">
+							<a class="nav-link" href="index.html">Главная</a>
+						</li>
+						
+						<!-- Головоломки + Выплывающий список -->
+						
+						<li class="nav.item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+								Головоломки
+								<span class="caret"></span>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown_target">
+								
+								<a class="menu__item dropdown-item" href="3x3x3.html">Кубик Рубика 3х3х3</a>
+								<a class="menu__item dropdown-item" href="2x2x2.html">Кубик Рубика 2x2x2</a>
+								
+							</div>
+						</li>
+						
+						<!-- Алгоритмы + Выплывающий список -->
+
+						<li class="nav.item dropdown active">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+								База алгоритмов
+								<span class="caret"></span>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown_target">
+								
+								<a class="menu__item dropdown-item
+								active" href="3x3x3algs.html">Кубик Рубика 3х3х3</a>
+								<a class="menu__item dropdown-item" href="2x2x2algs.html">Кубик Рубика 2x2x2</a>
+								
+							</div>
+						</li>
+
+						<!-- Таймер -->
+
+						<li class="nav.item">
+							<a class="nav-link" href="timer.html">Таймер</a>
+						</li>
+
+					</ul>
+				</div>
+			</nav>
+
+		</header>	
+
+
+
+            <!-- КОНТЕЙНЕР ДЛЯ СТРАНИЦЫ -->
+
+            <div class="wrapper">
+
+			<!-- Основной контент страницы -->
+
+
+			<div class="content">
+				<div class="height">
+					
+				</div>
+
+				
+
+					
+				<div class="container text3x3x3">
+					<h1>
+						Устройство кубика
+					</h1>
+					<p>
+						Для начала нам нужно понять, из каких элементов состоит кубик Рубика. Как говорится, все гениальное – просто. Кубик 3x3x3 состоит из 6 центов, 12 ребер и 8 углов. Внутри всей конструкции находится крестовина, благодаря которой двигаются грани, но для самой сборки она не понадобится, поэтому разберемся с основными элементами.
+<br>
+						Каждый центр показывает, что на этой стороне в собранном состоянии будет один из 6 цветов - белый, желтый, красный, оранжевый, синий и зеленый. Нужно понимать, что все центры никаким образом не меняют своего положения относительно друг друга во время сборки, поэтому белый всегда находится напротив желтого, красный напротив оранжевого и синий напротив зеленого.
+<br>
+						Каждое из 12 ребер всегда имеет 2 цвета. Очень важно понять, что ребро представляет собой цельный элемент, цвета которого мы не можем разбить, как бы мы ни вращали грани.
+<br>
+						То же самое относится и к каждому из 8 углов. Они имеет 3 цвета, которые нельзя разделить. Например, сине-красно-белый угол всегда таким и останется, где бы ни находился, можете сами в этом убедиться.
+
+						Таково механическое строение любого классического кубика 3х3x3 – скоростного или же самого простого из палатки.
+					</p>
+					
+					<div class="row">
+						<div class="col-lg-6"><img width="100%" src="3x3x3algs/newbe1.jpg"></div>
+						<div class="col-lg-6"><img width="100%" src="3x3x3algs/newbe2.jpg"></div>
+					</div>
+<br><br><br>
+					<center><iframe width="100%" height="400px" src="https://www.youtube.com/embed/8WRZCui7Jzo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<br>
+					<center><h3>
+						Поздравляю, ты собрал кубик Рубика!!!!
+<br><br><br>
+						А теперь, если хочешь немного ускорить свою сборку
+					используй эти алгоритмы.</h3></center>
+					<center>
+					<img width="50%" src="3x3x3algs/newbe3.jpg">
+					</center>
+					<center><p>Информация взята из этого источника <a href="https://www.cubeskills.com/">https://www.cubeskills.com</a></p></center>
+				</div>
+
+
+				
+			<!-- Подвал сайта -->
+
+			<footer class="navbar-fixed-bottom row-fluid footer">
+				<div class="navbar-inner">
+				<div class="container">
+					
+					<div class="me">
+						Copyright ©  Коркуц Станислав 2018 г.<br>  Все права защищены.
+					</div>	
+
+					<div class="icons">
+						
+						<a href="https://www.youtube.com/channel/UC4wIOkCE0eNx-mvK6BgWTIA">
+							<img class="icon" src="img/LogoYT.png">
+						</a>
+
+						<a href="https://vk.com/korkutsstas">
+							<img class="icon iconVK" src="img/LogoVK.png">
+						</a>
+						
+						<a href="https://www.instagram.com/kor_4_net/">
+							<img class="icon" src="img/LogoInst.png">
+						</a>
+							
+					</div>
+
+				</div>
+				</div>
+			</footer>
+
+
+			</div>
+			<!-- КОНТЕЙНЕР ДЛЯ СТРАНИЦЫ -->
+
+</body>
+</html>

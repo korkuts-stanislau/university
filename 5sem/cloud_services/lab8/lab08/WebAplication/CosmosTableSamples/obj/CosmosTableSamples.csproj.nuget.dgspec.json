@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Study\\ВОВ (Гуменников)\\lab08\\WebAplication\\CosmosTableSamples\\CosmosTableSamples.csproj": {}
+  },
+  "projects": {
+    "E:\\Study\\ВОВ (Гуменников)\\lab08\\WebAplication\\CosmosTableSamples\\CosmosTableSamples.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Study\\ВОВ (Гуменников)\\lab08\\WebAplication\\CosmosTableSamples\\CosmosTableSamples.csproj",
+        "projectName": "CosmosTableSamples",
+        "projectPath": "E:\\Study\\ВОВ (Гуменников)\\lab08\\WebAplication\\CosmosTableSamples\\CosmosTableSamples.csproj",
+        "packagesPath": "C:\\Users\\kirill-larchik\\.nuget\\packages\\",
+        "outputPath": "E:\\Study\\ВОВ (Гуменников)\\lab08\\WebAplication\\CosmosTableSamples\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kirill-larchik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Microsoft.Azure.Cosmos.Table": {
+              "target": "Package",
+              "version": "[0.11.0-preview, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\korkuts-itp21-oop\lab2\SubjectLib\bin\Debug\SubjectLib.dll
+C:\korkuts-itp21-oop\lab2\SubjectLib\bin\Debug\SubjectLib.pdb
+C:\korkuts-itp21-oop\lab2\SubjectLib\obj\Debug\SubjectLib.csprojAssemblyReference.cache
+C:\korkuts-itp21-oop\lab2\SubjectLib\obj\Debug\SubjectLib.dll
+C:\korkuts-itp21-oop\lab2\SubjectLib\obj\Debug\SubjectLib.pdb
+D:\korkuts-itp21-oop\lab2\SubjectLib\bin\Debug\SubjectLib.dll
+D:\korkuts-itp21-oop\lab2\SubjectLib\bin\Debug\SubjectLib.pdb
+D:\korkuts-itp21-oop\lab2\SubjectLib\obj\Debug\SubjectLib.csprojAssemblyReference.cache
+D:\korkuts-itp21-oop\lab2\SubjectLib\obj\Debug\SubjectLib.dll
+D:\korkuts-itp21-oop\lab2\SubjectLib\obj\Debug\SubjectLib.pdb
+D:\korkuts-itp21-oop\lab2_dtd_notation\SubjectLib\bin\Debug\SubjectLib.dll
+D:\korkuts-itp21-oop\lab2_dtd_notation\SubjectLib\bin\Debug\SubjectLib.pdb
+D:\korkuts-itp21-oop\lab2_dtd_notation\SubjectLib\obj\Debug\SubjectLib.csprojAssemblyReference.cache
+D:\korkuts-itp21-oop\lab2_dtd_notation\SubjectLib\obj\Debug\SubjectLib.dll
+D:\korkuts-itp21-oop\lab2_dtd_notation\SubjectLib\obj\Debug\SubjectLib.pdb

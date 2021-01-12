@@ -1,0 +1,13 @@
+D:\korkuts-itp21-oop\lab5\WFigures\bin\Debug\WFigures.exe.config
+D:\korkuts-itp21-oop\lab5\WFigures\bin\Debug\WFigures.exe
+D:\korkuts-itp21-oop\lab5\WFigures\bin\Debug\WFigures.pdb
+D:\korkuts-itp21-oop\lab5\WFigures\bin\Debug\FigureLibrary.dll
+D:\korkuts-itp21-oop\lab5\WFigures\bin\Debug\FigureLibrary.pdb
+D:\korkuts-itp21-oop\lab5\WFigures\obj\Debug\WFigures.csprojAssemblyReference.cache
+D:\korkuts-itp21-oop\lab5\WFigures\obj\Debug\WFigures.Figures.resources
+D:\korkuts-itp21-oop\lab5\WFigures\obj\Debug\WFigures.Properties.Resources.resources
+D:\korkuts-itp21-oop\lab5\WFigures\obj\Debug\WFigures.csproj.GenerateResource.cache
+D:\korkuts-itp21-oop\lab5\WFigures\obj\Debug\WFigures.csproj.CopyComplete
+D:\korkuts-itp21-oop\lab5\WFigures\obj\Debug\WFigures.exe
+D:\korkuts-itp21-oop\lab5\WFigures\obj\Debug\WFigures.pdb
+D:\korkuts-itp21-oop\lab5\WFigures\obj\Debug\WFigures.AddFigure.resources

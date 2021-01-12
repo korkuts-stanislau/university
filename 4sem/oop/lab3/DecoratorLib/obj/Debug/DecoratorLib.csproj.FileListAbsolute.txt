@@ -1,0 +1,5 @@
+D:\korkuts-itp21-oop\lab3\DecoratorLib\bin\Debug\DecoratorLib.dll
+D:\korkuts-itp21-oop\lab3\DecoratorLib\bin\Debug\DecoratorLib.pdb
+D:\korkuts-itp21-oop\lab3\DecoratorLib\obj\Debug\DecoratorLib.csprojAssemblyReference.cache
+D:\korkuts-itp21-oop\lab3\DecoratorLib\obj\Debug\DecoratorLib.dll
+D:\korkuts-itp21-oop\lab3\DecoratorLib\obj\Debug\DecoratorLib.pdb

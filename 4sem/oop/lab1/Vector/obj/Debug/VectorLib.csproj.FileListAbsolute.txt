@@ -1,0 +1,10 @@
+C:\korkuts_itp-21_oop\lab10\Vector\bin\Debug\Vector.dll
+C:\korkuts_itp-21_oop\lab10\Vector\bin\Debug\Vector.pdb
+C:\korkuts_itp-21_oop\lab10\Vector\obj\Debug\VectorLib.csprojAssemblyReference.cache
+C:\korkuts_itp-21_oop\lab10\Vector\obj\Debug\Vector.dll
+C:\korkuts_itp-21_oop\lab10\Vector\obj\Debug\Vector.pdb
+D:\korkuts-itp21-oop\lab1\Vector\bin\Debug\Vector.dll
+D:\korkuts-itp21-oop\lab1\Vector\bin\Debug\Vector.pdb
+D:\korkuts-itp21-oop\lab1\Vector\obj\Debug\VectorLib.csprojAssemblyReference.cache
+D:\korkuts-itp21-oop\lab1\Vector\obj\Debug\Vector.dll
+D:\korkuts-itp21-oop\lab1\Vector\obj\Debug\Vector.pdb

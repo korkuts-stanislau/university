@@ -1,0 +1,244 @@
+﻿@model ComputerShop.WebUI.ViewModels.Component.IndexComponentViewModel
+
+@{
+    ViewData["Title"] = "Components";
+    var defaultComponent = Model.Components.FirstOrDefault();
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Таблица</title>
+</head>
+<body>
+    <h3 class="text-center p-2">
+        <text>Components</text>
+        @if (User.IsInRole(ComputerShop.WebUI.Areas.Identity.Roles.Admin))
+        {
+            <a asp-action="Create" class="btn btn-outline-dark m-3">CREATE NEW</a>
+        }
+    </h3>
+    <hr />
+    <form method="get" class="form-inline">
+        <label>Model name:</label>
+        <input name="selectedModelName" value="@Model.FilterComponentViewModel.SelectedModelName" class="form-control col-2 m-1" />
+
+        <label>Component types:</label>
+        <select name="selectedComponentTypeId" asp-items="Model.FilterComponentViewModel.ComponentTypes" class="form-control col-1 m-1"></select>
+
+        <label>Manufacturers:</label>
+        <select name="selectedManufacturerId" asp-items="Model.FilterComponentViewModel.Manufacturers" class="form-control col-1 m-1"></select>
+
+        <label>Countries:</label>
+        <select name="selectedCountryId" asp-items="Model.FilterComponentViewModel.Countries" class="form-control col-1 m-1"></select>
+        <br />
+        <input type="hidden" name="isFromFilter" value="true" />
+        <input type="submit" value="Filter" class="btn btn-outline-dark col-2 m-1" />
+    </form>
+    <br />
+    <table class="table table-striped w-100">
+        <thead>
+            <tr>
+                <th>
+                    <a asp-action="Index"
+                       asp-route-sortOrder="@Model.SortComponentViewModel.ComponentTypeNameSort"
+                       asp-route-selectedModelName="@Model.FilterComponentViewModel.SelectedModelName"
+                       asp-route-selectedManufacturerId="@Model.FilterComponentViewModel.SelectedManufacturerId"
+                       asp-route-selectedCountryId="@Model.FilterComponentViewModel.SelectedCountryId">
+                        @Html.DisplayNameFor(model => defaultComponent.ComponentType.Name)
+                    </a>
+                </th>
+                <th>
+                    <a asp-action="Index"
+                       asp-route-sortOrder="@Model.SortComponentViewModel.ModelSort"
+                       asp-route-selectedModelName="@Model.FilterComponentViewModel.SelectedModelName"
+                       asp-route-selectedManufacturerId="@Model.FilterComponentViewModel.SelectedManufacturerId"
+                       asp-route-selectedCountryId="@Model.FilterComponentViewModel.SelectedCountryId">
+                        @Html.DisplayNameFor(model => defaultComponent.Model)
+                    </a>
+                </th>
+                <th>
+                    <a asp-action="Index"
+                       asp-route-sortOrder="@Model.SortComponentViewModel.ManufacturerNameSort"
+                       asp-route-selectedModelName="@Model.FilterComponentViewModel.SelectedModelName"
+                       asp-route-selectedManufacturerId="@Model.FilterComponentViewModel.SelectedManufacturerId"
+                       asp-route-selectedCountryId="@Model.FilterComponentViewModel.SelectedCountryId">
+                        @Html.DisplayNameFor(model => defaultComponent.Manufacturer.Name)
+                    </a>
+                </th>
+                <th>
+                    <a asp-action="Index"
+                       asp-route-sortOrder="@Model.SortComponentViewModel.CountryNameSort"
+                       asp-route-selectedModelName="@Model.FilterComponentViewModel.SelectedModelName"
+                       asp-route-selectedManufacturerId="@Model.FilterComponentViewModel.SelectedManufacturerId"
+                       asp-route-selectedCountryId="@Model.FilterComponentViewModel.SelectedCountryId">
+                        @Html.DisplayNameFor(model => defaultComponent.Country.Name)
+                    </a>
+                </th>
+                <th>
+                    <a asp-action="Index"
+                       asp-route-sortOrder="@Model.SortComponentViewModel.ReleaseDateSort"
+                       asp-route-selectedModelName="@Model.FilterComponentViewModel.SelectedModelName"
+                       asp-route-selectedManufacturerId="@Model.FilterComponentViewModel.SelectedManufacturerId"
+                       asp-route-selectedCountryId="@Model.FilterComponentViewModel.SelectedCountryId">
+                        @Html.DisplayNameFor(model => defaultComponent.ReleaseDate)
+                    </a>
+                </th>
+                <th>
+                    <a asp-action="Index"
+                       asp-route-sortOrder="@Model.SortComponentViewModel.CharacteristicsSort"
+                       asp-route-selectedModelName="@Model.FilterComponentViewModel.SelectedModelName"
+                       asp-route-selectedManufacturerId="@Model.FilterComponentViewModel.SelectedManufacturerId"
+                       asp-route-selectedCountryId="@Model.FilterComponentViewModel.SelectedCountryId">
+                        @Html.DisplayNameFor(model => defaultComponent.Characteristics)
+                    </a>
+                </th>
+                <th>
+                    <a asp-action="Index"
+                       asp-route-sortOrder="@Model.SortComponentViewModel.WarrantyInMonthsSort"
+                       asp-route-selectedModelName="@Model.FilterComponentViewModel.SelectedModelName"
+                       asp-route-selectedManufacturerId="@Model.FilterComponentViewModel.SelectedManufacturerId"
+                       asp-route-selectedCountryId="@Model.FilterComponentViewModel.SelectedCountryId">
+                        @Html.DisplayNameFor(model => defaultComponent.WarrantyInMonths)
+                    </a>
+                </th>
+                <th>
+                    <a asp-action="Index"
+                       asp-route-sortOrder="@Model.SortComponentViewModel.DescriptionSort"
+                       asp-route-selectedModelName="@Model.FilterComponentViewModel.SelectedModelName"
+                       asp-route-selectedManufacturerId="@Model.FilterComponentViewModel.SelectedManufacturerId"
+                       asp-route-selectedCountryId="@Model.FilterComponentViewModel.SelectedCountryId">
+                        @Html.DisplayNameFor(model => defaultComponent.Description)
+                    </a>
+                </th>
+                <th>
+                    <a asp-action="Index"
+                       asp-route-sortOrder="@Model.SortComponentViewModel.PriceSort"
+                       asp-route-selectedModelName="@Model.FilterComponentViewModel.SelectedModelName"
+                       asp-route-selectedManufacturerId="@Model.FilterComponentViewModel.SelectedManufacturerId"
+                       asp-route-selectedCountryId="@Model.FilterComponentViewModel.SelectedCountryId">
+                        @Html.DisplayNameFor(model => defaultComponent.Price)
+                    </a>
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Components)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ComponentType.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Model)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Manufacturer.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Country.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ReleaseDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Characteristics)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.WarrantyInMonths)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        <div>
+                            <a asp-action="Details"
+                               asp-route-componentId="@item.Id"
+                               class="btn btn-outline-dark w-100 m-1">Details</a>
+                            @if (User.IsInRole(ComputerShop.WebUI.Areas.Identity.Roles.Admin))
+                            {
+                                <a asp-action="Edit"
+                                   asp-route-componentId="@item.Id"
+                                   class="btn btn-outline-dark w-100 m-1">Edit</a>
+                                <a asp-action="Delete"
+                                   asp-route-componentId="@item.Id"
+                                   class="btn btn-outline-dark w-100 m-1">Delete</a>
+
+                            }
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="d-flex align-items-center justify-content-center">
+
+        @if (Model.PageViewModel.HasPreviousPage)
+        {
+            <a asp-action="Index"
+               asp-route-page="1"
+               asp-route-sortOrder="@Model.SortComponentViewModel.Current"
+               asp-route-selectedModelName="@Model.FilterComponentViewModel.SelectedModelName"
+               asp-route-selectedComponentTypeId="@Model.FilterComponentViewModel.SelectedComponentTypeId"
+               asp-route-selectedManufacturerId="@Model.FilterComponentViewModel.SelectedManufacturerId"
+               asp-route-selectedCountryId="@Model.FilterComponentViewModel.SelectedCountryId"
+               class="btn btn-outline-dark w-25 m-1">
+                <i class="glyphicon glyphicon-chevron-left">
+                    First page
+                </i>
+            </a>
+
+            <a asp-action="Index"
+               asp-route-page="@(Model.PageViewModel.PageNumber - 1)"
+               asp-route-sortOrder="@Model.SortComponentViewModel.Current"
+               asp-route-selectedModelName="@Model.FilterComponentViewModel.SelectedModelName"
+               asp-route-selectedComponentTypeId="@Model.FilterComponentViewModel.SelectedComponentTypeId"
+               asp-route-selectedManufacturerId="@Model.FilterComponentViewModel.SelectedManufacturerId"
+               asp-route-selectedCountryId="@Model.FilterComponentViewModel.SelectedCountryId"
+               class="btn btn-outline-dark w-25 m-1">
+                <i class="glyphicon glyphicon-chevron-left">
+                    Previous page
+                </i>
+            </a>
+        }
+        <a class="btn btn-outline-dark m-1">
+            <i class="glyphicon glyphicon-chevron-left">
+                @Model.PageViewModel.PageNumber
+            </i>
+        </a>
+        @if (Model.PageViewModel.HasNextPage)
+        {
+            <a asp-action="Index"
+               asp-route-page="@(Model.PageViewModel.PageNumber + 1)"
+               asp-route-sortOrder="@Model.SortComponentViewModel.Current"
+               asp-route-selectedModelName="@Model.FilterComponentViewModel.SelectedModelName"
+               asp-route-selectedComponentTypeId="@Model.FilterComponentViewModel.SelectedComponentTypeId"
+               asp-route-selectedManufacturerId="@Model.FilterComponentViewModel.SelectedManufacturerId"
+               asp-route-selectedCountryId="@Model.FilterComponentViewModel.SelectedCountryId"
+               class="btn btn-outline-dark w-25 m-1">
+                <i class="glyphicon glyphicon-chevron-left">
+                    Next page
+                </i>
+            </a>
+
+            <a asp-action="Index"
+               asp-route-page="@Model.PageViewModel.TotalPages"
+               asp-route-sortOrder="@Model.SortComponentViewModel.Current"
+               asp-route-selectedModelName="@Model.FilterComponentViewModel.SelectedModelName"
+               asp-route-selectedComponentTypeId="@Model.FilterComponentViewModel.SelectedComponentTypeId"
+               asp-route-selectedManufacturerId="@Model.FilterComponentViewModel.SelectedManufacturerId"
+               asp-route-selectedCountryId="@Model.FilterComponentViewModel.SelectedCountryId"
+               class="btn btn-outline-dark w-25 m-1">
+                <i class="glyphicon glyphicon-chevron-left">
+                    Last page (@Model.PageViewModel.TotalPages)
+                </i>
+            </a>
+        }
+    </div>
+</body>
+</html>

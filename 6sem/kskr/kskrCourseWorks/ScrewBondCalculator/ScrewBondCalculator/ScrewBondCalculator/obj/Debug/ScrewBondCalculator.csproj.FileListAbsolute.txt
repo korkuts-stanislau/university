@@ -1,0 +1,60 @@
+D:\My stuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\bin\Debug\ScrewBondCalculator.exe.config
+D:\My stuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\bin\Debug\ScrewBondCalculator.exe
+D:\My stuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\bin\Debug\ScrewBondCalculator.pdb
+D:\My stuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.csprojResolveAssemblyReference.cache
+D:\My stuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\MainWindow.g.cs
+D:\My stuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\App.g.cs
+D:\My stuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator_MarkupCompile.cache
+D:\My stuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator_MarkupCompile.lref
+D:\My stuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\MainWindow.baml
+D:\My stuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.g.resources
+D:\My stuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.Properties.Resources.resources
+D:\My stuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.csproj.GenerateResource.Cache
+D:\My stuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.exe
+D:\My stuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.pdb
+F:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\bin\Debug\ScrewBondCalculator.exe.config
+F:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.exe
+F:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.pdb
+F:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\bin\Debug\ScrewBondCalculator.exe
+F:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\bin\Debug\ScrewBondCalculator.pdb
+F:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.csprojResolveAssemblyReference.cache
+F:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\MainWindow.g.cs
+F:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\App.g.cs
+F:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator_MarkupCompile.cache
+F:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator_MarkupCompile.lref
+F:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\MainWindow.baml
+F:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.g.resources
+F:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.Properties.Resources.resources
+F:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.csproj.GenerateResource.Cache
+G:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\bin\Debug\ScrewBondCalculator.exe.config
+G:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.exe
+G:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.pdb
+G:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\bin\Debug\ScrewBondCalculator.exe
+G:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\bin\Debug\ScrewBondCalculator.pdb
+G:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.csprojResolveAssemblyReference.cache
+G:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\MainWindow.g.cs
+G:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\App.g.cs
+G:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator_MarkupCompile.cache
+G:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator_MarkupCompile.lref
+G:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\MainWindow.baml
+G:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.g.resources
+G:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.Properties.Resources.resources
+G:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.csproj.GenerateResource.Cache
+H:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\bin\Debug\ScrewBondCalculator.exe.config
+H:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.exe
+H:\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.pdb
+D:\MyStuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\bin\Debug\ScrewBondCalculator.exe.config
+D:\MyStuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\bin\Debug\ScrewBondCalculator.exe
+D:\MyStuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\bin\Debug\ScrewBondCalculator.pdb
+D:\MyStuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.csprojAssemblyReference.cache
+D:\MyStuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\MainWindow.g.cs
+D:\MyStuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\App.g.cs
+D:\MyStuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator_MarkupCompile.cache
+D:\MyStuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator_MarkupCompile.lref
+D:\MyStuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\MainWindow.baml
+D:\MyStuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.g.resources
+D:\MyStuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.Properties.Resources.resources
+D:\MyStuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.csproj.GenerateResource.cache
+D:\MyStuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.csproj.CoreCompileInputs.cache
+D:\MyStuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.exe
+D:\MyStuff\Study\Универ\КСКР\ScrewBondCalculator\ScrewBondCalculator\ScrewBondCalculator\obj\Debug\ScrewBondCalculator.pdb

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Коркуц Стас</title>
+</head>
+<body>
+    <script>
+        var urls=new Array('imgFor2Task/1.jpg','imgFor2Task/2.jpg','imgFor2Task/3.jpg','imgFor2Task/4.jpg','imgFor2Task/5.jpg');
+        function changeBG(num)
+        {
+            document.body.style.background = 'url('+urls[num-1]+')';
+        }
+    </script>
+    <div class="mainDiv">
+        <button onclick="changeBG(1)">Первое изображение</button>
+        <button onclick="changeBG(2)">Второе изображение</button>
+        <button onclick="changeBG(3)">Третье изображение</button>
+        <button onclick="changeBG(4)">Четвертое изображение</button>
+        <button onclick="changeBG(5)">Пятое изображение</button> 
+    </div>
+    <style>
+    *{
+        margin:0;
+        padding: 0;
+    }
+    button{
+        width:18.5%;
+        margin:1% 0.5%;
+    }
+    .mainDiv{
+        background-color: rgb(0, 0, 0);
+    }
+    </style>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "9SZYbSRk9SxYFIaN4wP/ShM6p9MpqfBavbDsUd2O2LfPN7hlmgMOYepCuwVCJwqcphQ1TNuaFKE0mBKAk1W8+A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\stani\\OneDrive\\Cloud\\University\\5semOZI\\lab2\\KeyCipherLib\\KeyCipherLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stani\\.nuget\\packages\\accord\\3.8.0\\accord.3.8.0.nupkg.sha512",
+    "C:\\Users\\stani\\.nuget\\packages\\accord.math\\3.8.0\\accord.math.3.8.0.nupkg.sha512",
+    "C:\\Users\\stani\\.nuget\\packages\\system.numerics.tensors\\0.1.0\\system.numerics.tensors.0.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

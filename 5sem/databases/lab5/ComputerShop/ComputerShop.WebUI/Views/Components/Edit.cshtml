@@ -1,0 +1,84 @@
+﻿@model ComputerShop.WebUI.Models.Component
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h3 class="text-center p-2">
+    <text>Edit component</text>
+</h3>
+<hr />
+<div class="row">
+    <div class="d-flex align-items-center justify-content-center">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ComponentType.Name" class="control-label"></label>
+                <select asp-for="ComponentTypeId"
+                        asp-items="ViewBag.ComponentTypes" class="form-control">
+                    <option>Select component type</option>
+                </select>
+                <span asp-validation-for="ComponentTypeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Model" class="control-label"></label>
+                <input asp-for="Model" class="form-control" />
+                <span asp-validation-for="Model" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Manufacturer.Name" class="control-label"></label>
+                <select asp-for="ManufacturerId"
+                        asp-items="ViewBag.Manufacturers" class="form-control">
+                    <option>
+                        Select manufacturer
+                    </option>
+                </select>
+                <span asp-validation-for="ManufacturerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Country.Name" class="control-label"></label>
+                <select asp-for="CountryId"
+                        asp-items="ViewBag.Countries" class="form-control">
+                    <option>
+                        Select country
+                    </option>
+                </select>
+                <span asp-validation-for="CountryId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ReleaseDate" class="control-label"></label>
+                <input asp-for="ReleaseDate" class="form-control" />
+                <span asp-validation-for="ReleaseDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Characteristics" class="control-label"></label>
+                <input asp-for="Characteristics" class="form-control" />
+                <span asp-validation-for="Characteristics" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WarrantyInMonths" class="control-label"></label>
+                <input asp-for="WarrantyInMonths" class="form-control" />
+                <span asp-validation-for="WarrantyInMonths" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-route-Id="@Model.Id" type="submit" value="Edit" class="btn btn-outline-dark col-6" />
+                <a asp-action="Index" class="btn btn-outline-dark col-6 float-right">Back to components list</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

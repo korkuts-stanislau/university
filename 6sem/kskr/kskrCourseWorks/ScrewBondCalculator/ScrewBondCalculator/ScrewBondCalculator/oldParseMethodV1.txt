@@ -1,0 +1,59 @@
+void parse()
+        {
+            string[] devidedString;
+            double load, puasson;
+            NumberStyles style;
+            System.Globalization.CultureInfo culture;
+            style = NumberStyles.Number | NumberStyles.AllowCurrencySymbol;
+            culture = CultureInfo.CreateSpecificCulture("en-GB");
+
+            if (nodesFormats != null && elementsFormats != null && constraintsFormat != null && loadsFormat != null && Double.TryParse(loadsTB.Text, out load) && Double.TryParse(puassonTB.Text, out puasson))
+            {
+                //Ниже парсятся узлы которые нагруженылучаются, получаются их номера в конечноэлементной сетке
+                List<int> numbersOfloadedNods = new List<int>(); //номера нагруженных узлов
+                for (int i = 0, nod; i < loadsFormat.Length; i++)
+                {
+                    devidedString = loadsFormat[i].Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                    if(devidedString.Length == 5)
+                    {
+                        if (Int32.TryParse(devidedString[2].Trim(), out nod))
+                        { 
+                            numbersOfloadedNods.Add(nod); 
+                        }
+                    }
+                    if (devidedString.Length == 3)
+                    {
+                        if (Int32.TryParse(devidedString[0].Trim(), out nod))
+                        {
+                            numbersOfloadedNods.Add(nod);
+                        }
+                    }
+                }
+
+                //парсятся все узлы
+                int number;
+                double x, y;
+                foreach (string str1 in nodesFormats)
+                {
+                    devidedString = str1.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                    if (devidedString.Length == 7)
+                    {
+                        if (Int32.TryParse(devidedString[0].Trim(), style, culture, out number) && Double.TryParse(devidedString[1].Trim(), style, culture, out x) && Double.TryParse(devidedString[2].Trim(), style, culture, out y))
+                        {
+                            if (numbersOfloadedNods.Contains(number))//если узел нагружен, добавить его в список нагруженных узлов
+                            {
+                                nods.Add(new Nod(number, x, y, numbersOfloadedNods.Where(ln => number == ln).Count() * load, 0));
+                            }
+                            else
+                            {
+                                nods.Add(new Nod(number, x, y, 0, 0));
+                            }
+                        }
+                    }
+                }
+
+            }
+            else
+                MessageBox.Show("Не загружены данные для рассчета либо они инвалидны.");
+   
+        }

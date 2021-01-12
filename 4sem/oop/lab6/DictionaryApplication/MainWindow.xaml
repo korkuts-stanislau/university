@@ -1,0 +1,42 @@
+﻿<Window x:Class="DictionaryApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DictionaryApplication"
+        mc:Ignorable="d"
+        Title="Контроль Расписания" Height="479.896" Width="599.398">
+    <Grid Margin="0,0,3.8,4.4">
+        <ListBox x:Name="timetableBox" HorizontalAlignment="Left" Height="392" Margin="10,44,0,0" VerticalAlignment="Top" Width="293"/>
+        <Label Content="Расписание" FontSize="20" HorizontalAlignment="Left" Margin="10,7,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.034,0.044"/>
+        <Label Content="Добавление" FontSize="20" HorizontalAlignment="Left" Margin="319,7,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.034,0.044"/>
+        <ComboBox x:Name="weekDayBox" HorizontalAlignment="Left" Margin="404,49,0,0" VerticalAlignment="Top" Width="168">
+            <ComboBoxItem Content="Понедельник" IsSelected="True"/>
+            <ComboBoxItem Content="Вторник"/>
+            <ComboBoxItem Content="Среда"/>
+            <ComboBoxItem Content="Четверг"/>
+            <ComboBoxItem Content="Пятница"/>
+        </ComboBox>
+        <Label Content="День недели" HorizontalAlignment="Left" Margin="319,46,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.089,0.095"/>
+        <Label Content="Название предмета" HorizontalAlignment="Left" Margin="319,77,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="subjectNameBox" HorizontalAlignment="Left" Height="23" Margin="452,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Фамилия преп." HorizontalAlignment="Left" Margin="319,105,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="eduLastNameBox" HorizontalAlignment="Left" Height="23" Margin="452,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Имя преп." HorizontalAlignment="Left" Margin="319,133,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="eduFirstNameBox" HorizontalAlignment="Left" Height="23" Margin="452,136,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Отчество преп." HorizontalAlignment="Left" Margin="319,161,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="eduMiddleNameBox" HorizontalAlignment="Left" Height="23" Margin="452,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Часы лекций" HorizontalAlignment="Left" Margin="319,189,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="lecHoursBox" HorizontalAlignment="Left" Height="23" Margin="452,192,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Часы практик" HorizontalAlignment="Left" Margin="319,217,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="labHoursBox" HorizontalAlignment="Left" Height="23" Margin="452,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Вид контроля" HorizontalAlignment="Left" Margin="319,245,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="controlTypeBox" HorizontalAlignment="Left" Margin="452,248,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Зачёт" IsSelected="True"/>
+            <ComboBoxItem Content="Экзамен"/>
+            <ComboBoxItem Content="ЗачётЭкзамен"/>
+            <ComboBoxItem Content="Тест"/>
+        </ComboBox>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="324,381,0,0" VerticalAlignment="Top" Width="248" Height="55" Click="Button_Click"/>
+    </Grid>
+</Window>

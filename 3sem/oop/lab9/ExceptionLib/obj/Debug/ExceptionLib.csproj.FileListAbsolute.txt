@@ -1,0 +1,5 @@
+C:\korkuts_itp-21_oop\lab9\ExceptionLib\bin\Debug\ExceptionLib.dll
+C:\korkuts_itp-21_oop\lab9\ExceptionLib\bin\Debug\ExceptionLib.pdb
+C:\korkuts_itp-21_oop\lab9\ExceptionLib\obj\Debug\ExceptionLib.csprojAssemblyReference.cache
+C:\korkuts_itp-21_oop\lab9\ExceptionLib\obj\Debug\ExceptionLib.dll
+C:\korkuts_itp-21_oop\lab9\ExceptionLib\obj\Debug\ExceptionLib.pdb

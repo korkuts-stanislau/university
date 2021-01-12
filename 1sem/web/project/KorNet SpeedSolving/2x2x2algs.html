@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KorNet® SpeedSolving</title>
+	<meta name="description" content="Алгоритмы сборки WCA головоломок, в частности кубика Рубика."> <!-- Описание сайта в гугле -->
+	<meta name="keywords" content="Кубик, Рубик, Сборка, Спидкубинг, Алгоритмы, Скоростная">    <!-- Ключевые слова при поиске в гугле -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/ico.ico" type="image/x-icon">
+	<!-- Подключение библиотек -->
+
+	<script src="js\jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<script src="bootstrap\js\bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+		<!-- ___________ШАПКА САЙТА____________ -->
+		<header class="header">
+			
+			<nav class="menu navbar navbar-expand-lg navbar-light bg-light fixed-top">
+				
+				<a href="index.html" class="navbar-brand">
+					<img height="65px" src="img\Logo.png" alt="logo">
+				</a>
+
+				<!-- Кнопка, в которой скрывается меню при уменьшении экрана -->
+
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<!-- Адаптивное меню -->
+
+				<div class="collapse navbar-collapse" id="collapse_target">
+					<ul class="navbar-nav mr-auto">
+						
+						<!-- Главная -->
+
+						<li class="nav.item">
+							<a class="nav-link" href="index.html">Главная</a>
+						</li>
+						
+						<!-- Головоломки + Выплывающий список -->
+						
+						<li class="nav.item dropdown">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+								Головоломки
+								<span class="caret"></span>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown_target">
+								
+								<a class="menu__item dropdown-item" href="3x3x3.html">Кубик Рубика 3х3х3</a>
+								<a class="menu__item dropdown-item" href="2x2x2.html">Кубик Рубика 2x2x2</a>
+
+							</div>
+						</li>
+						
+						<!-- Алгоритмы + Выплывающий список -->
+
+						<li class="nav.item dropdown active">
+							<a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+								База алгоритмов
+								<span class="caret"></span>
+							</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown_target">
+								
+								<a class="menu__item dropdown-item" href="3x3x3algs.html">Кубик Рубика 3х3х3</a>
+								<a class="menu__item dropdown-item active" href="2x2x2algs.html">Кубик Рубика 2x2x2</a>
+								
+								
+							</div>
+						</li>
+
+						<!-- Таймер -->
+
+						<li class="nav.item">
+							<a class="nav-link" href="timer.html">Таймер</a>
+						</li>
+
+					</ul>
+				</div>
+			</nav>
+
+		</header>	
+
+
+
+            <!-- КОНТЕЙНЕР ДЛЯ СТРАНИЦЫ -->
+
+            <div class="wrapper">
+
+			<!-- Основной контент страницы -->
+
+
+			<div class="content">
+				<div class="height">
+					
+				</div>
+
+				
+
+					
+
+				<div class="container">	
+					<div class="text">
+						<h1 align="center">Кубик Рубика 2x2x2</h1>
+						
+<br>
+						<div class="row">
+							<div class="col-lg-6">
+								<br>
+								<center><h1>Метод сборки кубика 2 на 2</h1></center>
+								<p>
+									Кубик 2 на 2 собирается абсолютно также как и углы на кубике 3 на 3. Если вы умеете собирать кубик рубика 3 на 3, то с кубиком 2 на 2 после нескольких попыток его собрать, не возникнет никаких сложностей. На этом сайте я представлю обучающее видео для тех, кто не умеет собирать 2 на 2.
+									<br><br>
+									А также вы можете тут найти алгоритмы, которые позволят ускорить свою сборку до 1-4 секунд. Среди них будут алгоритмы, ускоряющие сборку первого слоя, а также CLL алгоритмы, которые позволят собрать верхний слой одной формулой.
+									<br><br> 
+								</p>
+							</div>
+
+							<div class="levels3x3x3 col-lg-6">
+								<ul type="none">
+									<li class="item__levels3x3x3">
+										<br>
+										<button>
+										<a class="newbe" href="newbe3x3x3algs.html">
+											Новичковые алгоритмы
+										</a>
+										</button>
+										<br>
+										<button class="mid">
+										<a class="medium" href="medium3x3x3algs.html">
+											Алгоритмы для профи
+										</a>
+										</button>
+										<br>
+									</li>
+								</ul>
+							</div>
+						</div>
+				</div>	
+
+			</div>					
+	</div>
+			<!-- Подвал сайта -->
+
+			<footer class="navbar-fixed-bottom row-fluid footer">
+				<div class="navbar-inner">
+				<div class="container-fluid">
+					
+					<div class="me">
+						Copyright ©  Коркуц Станислав 2018 г.<br>  Все права защищены.
+					</div>	
+
+					<div class="icons">
+						
+						<a href="https://www.youtube.com/channel/UC4wIOkCE0eNx-mvK6BgWTIA">
+							<img class="icon" src="img/LogoYT.png">
+						</a>
+
+						<a href="https://vk.com/korkutsstas">
+							<img class="icon iconVK" src="img/LogoVK.png">
+						</a>
+						
+						<a href="https://www.instagram.com/kor_4_net/">
+							<img class="icon" src="img/LogoInst.png">
+						</a>
+							
+					</div>
+
+				</div>
+				</div>
+			</footer>
+
+
+			</div>
+			<!-- КОНТЕЙНЕР ДЛЯ СТРАНИЦЫ -->
+
+</body>
+</html>

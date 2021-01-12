@@ -1,0 +1,35 @@
+﻿<Subjects>
+     <Subject>
+          <SubjectName>Математика</SubjectName>
+          <LectureHours>128</LectureHours>
+          <LabHours>64</LabHours>
+          <Educator>
+               <FirstName>Александр</FirstName>
+               <LastName>Бабич</LastName>
+               <MiddleName>Антонович</MiddleName>
+          </Educator>
+          <ControlType>Экзамен</ControlType>
+     </Subject>
+     <Subject>
+          <SubjectName>ООП</SubjectName>
+          <LectureHours>144</LectureHours>
+          <LabHours>72</LabHours>
+          <Educator>
+               <FirstName>Константин</FirstName>
+               <LastName>Курочка</LastName>
+               <MiddleName>Сергеевич</MiddleName>
+          </Educator>
+          <ControlType>Экзамен</ControlType>
+     </Subject>
+     <Subject>
+          <SubjectName>Базы данных</SubjectName>
+          <LectureHours>120</LectureHours>
+          <LabHours>60</LabHours>
+          <Educator>
+               <FirstName>Олег</FirstName>
+               <LastName>Асенчик</LastName>
+               <MiddleName>Даниилович</MiddleName>
+          </Educator>
+          <ControlType>Экзамен</ControlType>
+     </Subject>
+</Subjects>

@@ -1,0 +1,9 @@
+C:\korkuts_itp-21_oop\lab4\StringProcessingApp\bin\Debug\StringProcessingApp.exe.config
+C:\korkuts_itp-21_oop\lab4\StringProcessingApp\bin\Debug\StringProcessingApp.exe
+C:\korkuts_itp-21_oop\lab4\StringProcessingApp\bin\Debug\StringProcessingApp.pdb
+C:\korkuts_itp-21_oop\lab4\StringProcessingApp\bin\Debug\StringLib.dll
+C:\korkuts_itp-21_oop\lab4\StringProcessingApp\bin\Debug\StringLib.pdb
+C:\korkuts_itp-21_oop\lab4\StringProcessingApp\obj\x86\Debug\StringProcessingApp.csprojAssemblyReference.cache
+C:\korkuts_itp-21_oop\lab4\StringProcessingApp\obj\x86\Debug\StringProcessingApp.csproj.CopyComplete
+C:\korkuts_itp-21_oop\lab4\StringProcessingApp\obj\x86\Debug\StringProcessingApp.exe
+C:\korkuts_itp-21_oop\lab4\StringProcessingApp\obj\x86\Debug\StringProcessingApp.pdb

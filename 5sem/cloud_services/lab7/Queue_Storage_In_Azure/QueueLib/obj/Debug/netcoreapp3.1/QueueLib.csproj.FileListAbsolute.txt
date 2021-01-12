@@ -1,0 +1,5 @@
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab7\Queue_Storage_In_Azure\QueueLib\bin\Debug\netcoreapp3.1\QueueLib.deps.json
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab7\Queue_Storage_In_Azure\QueueLib\bin\Debug\netcoreapp3.1\QueueLib.dll
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab7\Queue_Storage_In_Azure\QueueLib\obj\Debug\netcoreapp3.1\QueueLib.csprojAssemblyReference.cache
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab7\Queue_Storage_In_Azure\QueueLib\obj\Debug\netcoreapp3.1\QueueLib.AssemblyInfoInputs.cache
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab7\Queue_Storage_In_Azure\QueueLib\obj\Debug\netcoreapp3.1\QueueLib.AssemblyInfo.cs

@@ -1,0 +1,38 @@
+﻿<Window x:Class="SubjEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SubjEditor"
+        mc:Ignorable="d"
+        Title="Учёт дисциплин" Height="649.182" Width="888.471">
+    <Grid Margin="0,0,4.4,2.2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <DataGrid x:Name="subjectsGrid" Height="363" Margin="10,10,9.6,0" VerticalAlignment="Top" Grid.ColumnSpan="2" SelectionChanged="subjectsGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding SubjectId}" Header="Идентификатор"/>
+                <DataGridTextColumn Binding="{Binding SubjectName}" Header="Название"/>
+                <DataGridTextColumn Binding="{Binding LectureHours}" Header="Часов лекций"/>
+                <DataGridTextColumn Binding="{Binding LabHours}" Header="Часов практик"/>
+                <DataGridTextColumn Binding="{Binding ControlTypeName}" Header="Вид контроля"/>
+                <DataGridTextColumn Binding="{Binding Educator}" Header="Преподаватель"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <ComboBox x:Name="controlBox" HorizontalAlignment="Left" Margin="343,409,0,0" VerticalAlignment="Top" Width="195" Grid.ColumnSpan="2"/>
+        <ComboBox x:Name="educatorsBox" HorizontalAlignment="Left" Margin="10,409,0,0" VerticalAlignment="Top" Width="312" Grid.ColumnSpan="2"/>
+        <Label Grid.ColumnSpan="2" Content="Преподаватели" HorizontalAlignment="Left" Margin="10,378,0,0" VerticalAlignment="Top" Width="101"/>
+        <Label Grid.ColumnSpan="2" Content="Виды контроля" HorizontalAlignment="Left" Margin="343,378,0,0" VerticalAlignment="Top" Width="115"/>
+        <Label Grid.ColumnSpan="2" Content="Название" HorizontalAlignment="Left" Margin="10,433,0,0" VerticalAlignment="Top" Width="129"/>
+        <TextBox x:Name="subjectNameBox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="23" Margin="10,463,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="528"/>
+        <Label Grid.ColumnSpan="2" Content="Часов лекций" HorizontalAlignment="Left" Margin="10,491,0,0" VerticalAlignment="Top" Width="179"/>
+        <TextBox x:Name="lectureHoursBox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="23" Margin="10,522,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="528"/>
+        <Label Grid.ColumnSpan="2" Content="Часов практик" HorizontalAlignment="Left" Margin="10,550,0,0" VerticalAlignment="Top" Width="185"/>
+        <TextBox x:Name="labHoursBox" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="23" Margin="10,581,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="528"/>
+        <Button x:Name="addButton" Grid.ColumnSpan="2" Content="Добавить" HorizontalAlignment="Left" Margin="572,409,0,0" VerticalAlignment="Top" Width="295" Height="50" Click="addButton_Click"/>
+        <Button x:Name="editButton" Grid.ColumnSpan="2" Content="Редактировать" HorizontalAlignment="Left" Margin="573,479,0,0" VerticalAlignment="Top" Width="295" Height="50" Click="editButton_Click"/>
+        <Button x:Name="deleteButton" Grid.ColumnSpan="2" Content="Удалить" HorizontalAlignment="Left" Margin="573,554,0,0" VerticalAlignment="Top" Width="295" Height="50" Click="deleteButton_Click"/>
+    </Grid>
+</Window>

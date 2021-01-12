@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Коркуц Стас</title>
+</head>
+<body>
+    <script>
+        function doManyForms()
+        {
+            var num=document.getElementById('mainIn').value;
+            var mainForm=document.getElementById('form');
+            for(i=0;i<num;i++)
+            {
+                mainForm.innerHTML+='<br><input type="number" class="subforms">';
+            }
+        }
+    </script>
+    <form id="form">
+        <input id="mainIn" type="number">
+        <button id="OK" onClick="doManyForms()" style="width: 44px; height: 24px">OK</button>
+    </form>
+    <style>
+        .subforms{
+            margin-top:2px;
+        }
+    </style>
+</body>
+</html>

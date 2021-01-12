@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooLib", "ZooLib\ZooLib.csproj", "{05285809-7350-4B13-9DFF-E5A7C5EE6BF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooApp", "ZooApp\ZooApp.csproj", "{3F874297-5620-447A-8169-AC39B59CEA4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05285809-7350-4B13-9DFF-E5A7C5EE6BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05285809-7350-4B13-9DFF-E5A7C5EE6BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05285809-7350-4B13-9DFF-E5A7C5EE6BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05285809-7350-4B13-9DFF-E5A7C5EE6BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F874297-5620-447A-8169-AC39B59CEA4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F874297-5620-447A-8169-AC39B59CEA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F874297-5620-447A-8169-AC39B59CEA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F874297-5620-447A-8169-AC39B59CEA4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C5FDC5F-1029-4F1E-97B8-270A71E6C9FE}
+	EndGlobalSection
+EndGlobal

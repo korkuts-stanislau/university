@@ -1,0 +1,6 @@
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab2\VectorLib\bin\Debug\VectorLib.dll
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab2\VectorLib\bin\Debug\VectorLib.pdb
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab2\VectorLib\obj\Debug\VectorLib.csprojAssemblyReference.cache
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab2\VectorLib\obj\Debug\VectorLib.csproj.CoreCompileInputs.cache
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab2\VectorLib\obj\Debug\VectorLib.dll
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab2\VectorLib\obj\Debug\VectorLib.pdb

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Коркуц Стас</title>
+    <script>
+        var sum=prompt("Введите общую сумму покупки");
+        var percent=prompt("Введите скидку");
+        var changeSum=sum-sum*percent/100;
+        if(percent>5 || percent<1)
+        {
+            alert("Неверный размер скидки");
+        }
+        else
+            document.write("Стоимость = ",sum,"руб. Скидка = ",sum-changeSum,"руб. Итого ",changeSum,"руб.");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
+
+

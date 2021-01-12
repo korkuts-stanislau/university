@@ -1,0 +1,11 @@
+C:\Users\saymo\source\repos\CryptoLabs\CipherLibrary\bin\Debug\CipherLibrary.dll
+C:\Users\saymo\source\repos\CryptoLabs\CipherLibrary\bin\Debug\CipherLibrary.pdb
+C:\Users\saymo\source\repos\CryptoLabs\CipherLibrary\obj\Debug\CipherLibrary.csproj.CoreCompileInputs.cache
+C:\Users\saymo\source\repos\CryptoLabs\CipherLibrary\obj\Debug\CipherLibrary.dll
+C:\Users\saymo\source\repos\CryptoLabs\CipherLibrary\obj\Debug\CipherLibrary.pdb
+C:\Users\saymo\source\repos\CryptoLabs\CipherLibrary\obj\Debug\CipherLibrary.csprojAssemblyReference.cache
+C:\Users\saymo\source\repos\CryptoLabs\CipherLibrary\bin\Debug\CryptoLibrary.dll
+C:\Users\saymo\source\repos\CryptoLabs\CipherLibrary\bin\Debug\CryptoLibrary.pdb
+C:\Users\saymo\source\repos\CryptoLabs\CipherLibrary\obj\Debug\CipherLibrary.csproj.CopyComplete
+C:\Users\saymo\source\repos\CryptoLabs\CipherLibrary\bin\Debug\MathNet.Numerics.dll
+C:\Users\saymo\source\repos\CryptoLabs\CipherLibrary\bin\Debug\MathNet.Numerics.xml

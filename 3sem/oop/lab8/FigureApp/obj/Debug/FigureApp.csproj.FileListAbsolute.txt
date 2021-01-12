@@ -1,0 +1,16 @@
+C:\korkuts_itp-21_oop\lab8\FigureApp\bin\Debug\FigureApp.exe.config
+C:\korkuts_itp-21_oop\lab8\FigureApp\bin\Debug\FigureApp.exe
+C:\korkuts_itp-21_oop\lab8\FigureApp\bin\Debug\FigureApp.pdb
+C:\korkuts_itp-21_oop\lab8\FigureApp\bin\Debug\FigureLib.dll
+C:\korkuts_itp-21_oop\lab8\FigureApp\bin\Debug\FigureLib.pdb
+C:\korkuts_itp-21_oop\lab8\FigureApp\obj\Debug\FigureApp.csprojAssemblyReference.cache
+C:\korkuts_itp-21_oop\lab8\FigureApp\obj\Debug\FigureApp.MainForm.resources
+C:\korkuts_itp-21_oop\lab8\FigureApp\obj\Debug\FigureApp.Properties.Resources.resources
+C:\korkuts_itp-21_oop\lab8\FigureApp\obj\Debug\FigureApp.csproj.GenerateResource.cache
+C:\korkuts_itp-21_oop\lab8\FigureApp\obj\Debug\FigureApp.csproj.CopyComplete
+C:\korkuts_itp-21_oop\lab8\FigureApp\obj\Debug\FigureApp.exe
+C:\korkuts_itp-21_oop\lab8\FigureApp\obj\Debug\FigureApp.pdb
+C:\korkuts_itp-21_oop\lab8\FigureApp\obj\Debug\FigureApp.AddCircle.resources
+C:\korkuts_itp-21_oop\lab8\FigureApp\obj\Debug\FigureApp.AddSquare.resources
+C:\korkuts_itp-21_oop\lab8\FigureApp\obj\Debug\FigureApp.EditCircle.resources
+C:\korkuts_itp-21_oop\lab8\FigureApp\obj\Debug\FigureApp.EditSquare.resources

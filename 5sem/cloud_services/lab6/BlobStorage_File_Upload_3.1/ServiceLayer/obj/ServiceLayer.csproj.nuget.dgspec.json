@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\stani\\OneDrive\\Cloud\\University\\5sem\\5semVOV\\lab6\\BlobStorage_File_Upload_3.1\\ServiceLayer\\ServiceLayer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\stani\\OneDrive\\Cloud\\University\\5sem\\5semVOV\\lab6\\BlobStorage_File_Upload_3.1\\DataContext\\DataContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stani\\OneDrive\\Cloud\\University\\5sem\\5semVOV\\lab6\\BlobStorage_File_Upload_3.1\\DataContext\\DataContext.csproj",
+        "projectName": "DataContext",
+        "projectPath": "C:\\Users\\stani\\OneDrive\\Cloud\\University\\5sem\\5semVOV\\lab6\\BlobStorage_File_Upload_3.1\\DataContext\\DataContext.csproj",
+        "packagesPath": "C:\\Users\\stani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stani\\OneDrive\\Cloud\\University\\5sem\\5semVOV\\lab6\\BlobStorage_File_Upload_3.1\\DataContext\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stani\\OneDrive\\Cloud\\University\\5sem\\5semVOV\\lab6\\BlobStorage_File_Upload_3.1\\ServiceLayer\\ServiceLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stani\\OneDrive\\Cloud\\University\\5sem\\5semVOV\\lab6\\BlobStorage_File_Upload_3.1\\ServiceLayer\\ServiceLayer.csproj",
+        "projectName": "ServiceLayer",
+        "projectPath": "C:\\Users\\stani\\OneDrive\\Cloud\\University\\5sem\\5semVOV\\lab6\\BlobStorage_File_Upload_3.1\\ServiceLayer\\ServiceLayer.csproj",
+        "packagesPath": "C:\\Users\\stani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stani\\OneDrive\\Cloud\\University\\5sem\\5semVOV\\lab6\\BlobStorage_File_Upload_3.1\\ServiceLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\stani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\stani\\OneDrive\\Cloud\\University\\5sem\\5semVOV\\lab6\\BlobStorage_File_Upload_3.1\\DataContext\\DataContext.csproj": {
+                "projectPath": "C:\\Users\\stani\\OneDrive\\Cloud\\University\\5sem\\5semVOV\\lab6\\BlobStorage_File_Upload_3.1\\DataContext\\DataContext.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Azure.KeyVault.Core": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

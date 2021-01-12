@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Коркуц Стас</title>
+    <script>
+        var n=1;
+        document.write('<table border="1" cellpadding="5"><tr>');
+        for(i=0;i<10;i++)
+        {
+            for(j=1;j<=10;j++)
+            {
+                if(n*(n+1)/2==j+i*10)
+                {
+                    document.write('<td><p>'+(j+i*10)+'</p></td>');
+                    n++;
+                }
+                else
+                    document.write('<td>'+(j+i*10)+'</td>');
+            }
+            document.write('</tr><tr>');
+        }
+        document.write('</tr></table>');    
+    </script>
+</head>
+<body>
+    <style>
+        p
+        {
+            color:red;
+            margin:0;
+        }    
+    </style>
+</body>
+</html>

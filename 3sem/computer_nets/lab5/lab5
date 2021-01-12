@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project PUBLIC "NET-Simulator/dtd/netsimulator.dtd" "http://www.net-simulator.org/dtd/1.0/netsimulator.dtd">
+<project author="" description="" createDate="" currentId="152">
+	<routerShape id="1" name="Router 5" description="" x="611" y="93">
+		<IP4Router id="2">
+			<eth id="4" name="eth0" status="1" mac="0:0:0:0:2:0" ip4="192.168.0.5" ip4bcast="192.168.0.255" ip4mask="255.255.255.0" bandwidth="0" />
+			<eth id="5" name="eth1" status="0" mac="0:0:0:0:2:1" ip4="" ip4bcast="" ip4mask="" bandwidth="0" />
+			<eth id="6" name="eth2" status="0" mac="0:0:0:0:2:2" ip4="" ip4bcast="" ip4mask="" bandwidth="0" />
+			<eth id="7" name="eth3" status="0" mac="0:0:0:0:2:3" ip4="" ip4bcast="" ip4mask="" bandwidth="0" />
+			<eth id="8" name="eth4" status="0" mac="0:0:0:0:2:4" ip4="" ip4bcast="" ip4mask="" bandwidth="0" />
+			<eth id="9" name="eth5" status="0" mac="0:0:0:0:2:5" ip4="" ip4bcast="" ip4mask="" bandwidth="0" />
+			<eth id="10" name="eth6" status="0" mac="0:0:0:0:2:6" ip4="" ip4bcast="" ip4mask="" bandwidth="0" />
+			<eth id="11" name="eth7" status="1" mac="0:0:0:0:2:7" ip4="192.168.2.5" ip4bcast="192.168.2.255" ip4mask="255.255.255.0" bandwidth="0" />
+			<routingTable>
+				<row target="192.168.0.0" netmask="255.255.255.0" gateway="" metric="0" iface="eth0" />
+				<row target="192.168.1.0" netmask="255.255.255.0" gateway="192.168.2.6" metric="0" iface="eth7" />
+				<row target="192.168.2.0" netmask="255.255.255.0" gateway="" metric="0" iface="eth7" />
+			</routingTable>
+		</IP4Router>
+		<socketShape id="13" x="641" y="111" devId="4" />
+		<socketShape id="14" x="649" y="111" devId="5" />
+		<socketShape id="15" x="657" y="111" devId="6" />
+		<socketShape id="16" x="665" y="111" devId="7" />
+		<socketShape id="17" x="673" y="111" devId="8" />
+		<socketShape id="18" x="681" y="111" devId="9" />
+		<socketShape id="19" x="689" y="111" devId="10" />
+		<socketShape id="20" x="697" y="111" devId="11" />
+	</routerShape>
+	<routerShape id="21" name="Router 6" description="" x="923" y="145">
+		<IP4Router id="22">
+			<eth id="24" name="eth0" status="1" mac="0:0:0:0:16:0" ip4="192.168.2.6" ip4bcast="192.168.2.255" ip4mask="255.255.255.0" bandwidth="0" />
+			<eth id="25" name="eth1" status="0" mac="0:0:0:0:16:1" ip4="" ip4bcast="" ip4mask="" bandwidth="0" />
+			<eth id="26" name="eth2" status="0" mac="0:0:0:0:16:2" ip4="" ip4bcast="" ip4mask="" bandwidth="0" />
+			<eth id="27" name="eth3" status="0" mac="0:0:0:0:16:3" ip4="" ip4bcast="" ip4mask="" bandwidth="0" />
+			<eth id="28" name="eth4" status="0" mac="0:0:0:0:16:4" ip4="" ip4bcast="" ip4mask="" bandwidth="0" />
+			<eth id="29" name="eth5" status="0" mac="0:0:0:0:16:5" ip4="" ip4bcast="" ip4mask="" bandwidth="0" />
+			<eth id="30" name="eth6" status="0" mac="0:0:0:0:16:6" ip4="" ip4bcast="" ip4mask="" bandwidth="0" />
+			<eth id="31" name="eth7" status="1" mac="0:0:0:0:16:7" ip4="192.168.1.6" ip4bcast="192.168.1.255" ip4mask="255.255.255.0" bandwidth="0" />
+			<routingTable>
+				<row target="192.168.0.0" netmask="255.255.255.0" gateway="192.168.2.5" metric="0" iface="eth0" />
+				<row target="192.168.2.0" netmask="255.255.255.0" gateway="" metric="0" iface="eth0" />
+				<row target="192.168.1.0" netmask="255.255.255.0" gateway="" metric="0" iface="eth7" />
+			</routingTable>
+		</IP4Router>
+		<socketShape id="33" x="953" y="163" devId="24" />
+		<socketShape id="34" x="961" y="163" devId="25" />
+		<socketShape id="35" x="969" y="163" devId="26" />
+		<socketShape id="36" x="977" y="163" devId="27" />
+		<socketShape id="37" x="985" y="163" devId="28" />
+		<socketShape id="38" x="993" y="163" devId="29" />
+		<socketShape id="39" x="1001" y="163" devId="30" />
+		<socketShape id="40" x="1009" y="163" devId="31" />
+	</routerShape>
+	<switchShape id="41" name="Switch 0" description="" x="445" y="350">
+		<switch id="42">
+			<port id="43" />
+			<port id="44" />
+			<port id="45" />
+			<port id="46" />
+			<port id="47" />
+			<port id="48" />
+			<port id="49" />
+			<port id="50" />
+		</switch>
+		<socketShape id="51" x="475" y="368" devId="43" />
+		<socketShape id="52" x="483" y="368" devId="44" />
+		<socketShape id="53" x="491" y="368" devId="45" />
+		<socketShape id="54" x="499" y="368" devId="46" />
+		<socketShape id="55" x="507" y="368" devId="47" />
+		<socketShape id="56" x="515" y="368" devId="48" />
+		<socketShape id="57" x="523" y="368" devId="49" />
+		<socketShape id="58" x="531" y="368" devId="50" />
+	</switchShape>
+	<switchShape id="59" name="Switch 1" description="" x="856" y="295">
+		<switch id="60">
+			<port id="61" />
+			<port id="62" />
+			<port id="63" />
+			<port id="64" />
+			<port id="65" />
+			<port id="66" />
+			<port id="67" />
+			<port id="68" />
+		</switch>
+		<socketShape id="69" x="886" y="313" devId="61" />
+		<socketShape id="70" x="894" y="313" devId="62" />
+		<socketShape id="71" x="902" y="313" devId="63" />
+		<socketShape id="72" x="910" y="313" devId="64" />
+		<socketShape id="73" x="918" y="313" devId="65" />
+		<socketShape id="74" x="926" y="313" devId="66" />
+		<socketShape id="75" x="934" y="313" devId="67" />
+		<socketShape id="76" x="942" y="313" devId="68" />
+	</switchShape>
+	<desktopShape id="77" name="Desktop 1" description="" x="184" y="143">
+		<IP4Router id="78">
+			<eth id="80" name="eth0" status="1" mac="0:0:0:0:4E:0" ip4="192.168.0.1" ip4bcast="192.168.0.255" ip4mask="255.255.255.0" bandwidth="0" />
+			<routingTable>
+				<row target="192.168.1.0" netmask="255.255.255.0" gateway="192.168.0.5" metric="0" iface="eth0" />
+				<row target="192.168.0.0" netmask="255.255.255.0" gateway="" metric="0" iface="eth0" />
+			</routingTable>
+		</IP4Router>
+		<socketShape id="82" x="222" y="178" devId="80" />
+	</desktopShape>
+	<desktopShape id="83" name="Desktop 2" description="" x="346" y="647">
+		<IP4Router id="84">
+			<eth id="86" name="eth0" status="1" mac="0:0:0:0:54:0" ip4="192.168.0.2" ip4bcast="192.168.0.255" ip4mask="255.255.255.0" bandwidth="0" />
+			<routingTable>
+				<row target="192.168.1.0" netmask="255.255.255.0" gateway="192.168.0.5" metric="0" iface="eth0" />
+				<row target="192.168.0.0" netmask="255.255.255.0" gateway="" metric="0" iface="eth0" />
+			</routingTable>
+		</IP4Router>
+		<socketShape id="88" x="384" y="682" devId="86" />
+	</desktopShape>
+	<desktopShape id="89" name="Desktop 3" description="" x="821" y="567">
+		<IP4Router id="90">
+			<eth id="92" name="eth0" status="1" mac="0:0:0:0:5A:0" ip4="192.168.1.3" ip4bcast="192.168.1.255" ip4mask="255.255.255.0" bandwidth="0" />
+			<routingTable>
+				<row target="192.168.1.0" netmask="255.255.255.0" gateway="" metric="0" iface="eth0" />
+				<row target="192.168.0.0" netmask="255.255.255.0" gateway="192.168.1.6" metric="0" iface="eth0" />
+			</routingTable>
+		</IP4Router>
+		<socketShape id="94" x="859" y="602" devId="92" />
+	</desktopShape>
+	<desktopShape id="95" name="Desktop 4" description="" x="1100" y="467">
+		<IP4Router id="96">
+			<eth id="98" name="eth0" status="1" mac="0:0:0:0:60:0" ip4="192.168.1.4" ip4bcast="192.168.1.255" ip4mask="255.255.255.0" bandwidth="0" />
+			<routingTable>
+				<row target="192.168.1.0" netmask="255.255.255.0" gateway="" metric="0" iface="eth0" />
+				<row target="192.168.0.0" netmask="255.255.255.0" gateway="192.168.1.6" metric="0" iface="eth0" />
+			</routingTable>
+		</IP4Router>
+		<socketShape id="100" x="1138" y="502" devId="98" />
+	</desktopShape>
+	<patchcord id="113">
+		<media id="114" pointsCount="2" />
+		<plug id="115" point="1" x="222" y="178" socket="82" />
+		<plug id="116" point="2" x="475" y="368" socket="51" />
+	</patchcord>
+	<patchcord id="117">
+		<media id="118" pointsCount="2" />
+		<plug id="119" point="1" x="384" y="682" socket="88" />
+		<plug id="120" point="2" x="483" y="368" socket="52" />
+	</patchcord>
+	<patchcord id="121">
+		<media id="122" pointsCount="2" />
+		<plug id="123" point="1" x="641" y="111" socket="13" />
+		<plug id="124" point="2" x="531" y="368" socket="58" />
+	</patchcord>
+	<patchcord id="125">
+		<media id="126" pointsCount="2" />
+		<plug id="127" point="1" x="697" y="111" socket="20" />
+		<plug id="128" point="2" x="953" y="163" socket="33" />
+	</patchcord>
+	<patchcord id="129">
+		<media id="130" pointsCount="2" />
+		<plug id="131" point="1" x="1009" y="163" socket="40" />
+		<plug id="132" point="2" x="942" y="313" socket="76" />
+	</patchcord>
+	<patchcord id="133">
+		<media id="134" pointsCount="2" />
+		<plug id="135" point="1" x="886" y="313" socket="69" />
+		<plug id="136" point="2" x="859" y="602" socket="94" />
+	</patchcord>
+	<patchcord id="137">
+		<media id="138" pointsCount="2" />
+		<plug id="139" point="1" x="894" y="313" socket="70" />
+		<plug id="140" point="2" x="1138" y="502" socket="100" />
+	</patchcord>
+</project>

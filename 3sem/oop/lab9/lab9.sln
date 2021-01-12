@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolynomApp", "PolynomApp\PolynomApp.csproj", "{D21854CD-1FF5-481D-811C-85B39989D4E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolynomLib", "PolynomLib\PolynomLib.csproj", "{B8E698CD-64E5-44FF-81F4-847887843270}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionLib", "ExceptionLib\ExceptionLib.csproj", "{EE7FA2C4-7C90-4037-A373-47948A8FD17E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolynomTests", "PolynomTests\PolynomTests.csproj", "{1C0C56DF-87C2-454C-868B-747D3646BA76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D21854CD-1FF5-481D-811C-85B39989D4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21854CD-1FF5-481D-811C-85B39989D4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21854CD-1FF5-481D-811C-85B39989D4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21854CD-1FF5-481D-811C-85B39989D4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8E698CD-64E5-44FF-81F4-847887843270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E698CD-64E5-44FF-81F4-847887843270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E698CD-64E5-44FF-81F4-847887843270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E698CD-64E5-44FF-81F4-847887843270}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE7FA2C4-7C90-4037-A373-47948A8FD17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7FA2C4-7C90-4037-A373-47948A8FD17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7FA2C4-7C90-4037-A373-47948A8FD17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7FA2C4-7C90-4037-A373-47948A8FD17E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C0C56DF-87C2-454C-868B-747D3646BA76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C0C56DF-87C2-454C-868B-747D3646BA76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C0C56DF-87C2-454C-868B-747D3646BA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C0C56DF-87C2-454C-868B-747D3646BA76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF86ACAF-CE4E-4494-8FA3-3E929BCD2734}
+	EndGlobalSection
+EndGlobal

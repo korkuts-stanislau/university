@@ -1,0 +1,101 @@
+E:\Учеба\6 семестр\КСКР\Курсовая\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csprojResolveAssemblyReference.cache
+E:\Учеба\6 семестр\КСКР\Курсовая\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.MainForm.resources
+E:\Учеба\6 семестр\КСКР\Курсовая\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.Properties.Resources.resources
+E:\Учеба\6 семестр\КСКР\Курсовая\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csproj.GenerateResource.Cache
+E:\Учеба\6 семестр\КСКР\Курсовая\Coursework_kskr\Coursework_kskr\bin\Debug\Coursework_kskr.exe
+E:\Учеба\6 семестр\КСКР\Курсовая\Coursework_kskr\Coursework_kskr\bin\Debug\Coursework_kskr.pdb
+E:\Учеба\6 семестр\КСКР\Курсовая\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.exe
+E:\Учеба\6 семестр\КСКР\Курсовая\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.pdb
+E:\Учеба\6 семестр\КСКР\Курсовая\Саня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.exe
+E:\Учеба\6 семестр\КСКР\Курсовая\Саня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.pdb
+E:\Учеба\6 семестр\КСКР\Курсовая\Саня\Coursework_kskr\Coursework_kskr\bin\Debug\Coursework_kskr.exe
+E:\Учеба\6 семестр\КСКР\Курсовая\Саня\Coursework_kskr\Coursework_kskr\bin\Debug\Coursework_kskr.pdb
+E:\Учеба\6 семестр\КСКР\Курсовая\Саня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csprojResolveAssemblyReference.cache
+E:\Учеба\6 семестр\КСКР\Курсовая\Саня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.MainForm.resources
+E:\Учеба\6 семестр\КСКР\Курсовая\Саня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.Properties.Resources.resources
+E:\Учеба\6 семестр\КСКР\Курсовая\Саня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csproj.GenerateResource.Cache
+C:\Users\_massive_attack_\Desktop\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.exe
+C:\Users\_massive_attack_\Desktop\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.pdb
+C:\Users\_massive_attack_\Desktop\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csprojResolveAssemblyReference.cache
+C:\Users\_massive_attack_\Desktop\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.MainForm.resources
+C:\Users\_massive_attack_\Desktop\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.Properties.Resources.resources
+C:\Users\_massive_attack_\Desktop\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csproj.GenerateResource.Cache
+C:\Users\_massive_attack_\Desktop\Coursework_kskr\Coursework_kskr\bin\Debug\Coursework_kskr.exe
+C:\Users\_massive_attack_\Desktop\Coursework_kskr\Coursework_kskr\bin\Debug\Coursework_kskr.pdb
+C:\Users\_massive_attack_\Desktop\Coursework_kskr - копия\Coursework_kskr\obj\Debug\Coursework_kskr.exe
+C:\Users\_massive_attack_\Desktop\Coursework_kskr - копия\Coursework_kskr\obj\Debug\Coursework_kskr.pdb
+C:\Users\_massive_attack_\Desktop\Coursework_kskr - копия\Coursework_kskr\bin\Debug\Coursework_kskr.exe
+C:\Users\_massive_attack_\Desktop\Coursework_kskr - копия\Coursework_kskr\bin\Debug\Coursework_kskr.pdb
+C:\Users\_massive_attack_\Desktop\Coursework_kskr - копия\Coursework_kskr\obj\Debug\Coursework_kskr.csprojResolveAssemblyReference.cache
+C:\Users\_massive_attack_\Desktop\Coursework_kskr - копия\Coursework_kskr\obj\Debug\Coursework_kskr.MainForm.resources
+C:\Users\_massive_attack_\Desktop\Coursework_kskr - копия\Coursework_kskr\obj\Debug\Coursework_kskr.Properties.Resources.resources
+C:\Users\_massive_attack_\Desktop\Coursework_kskr - копия\Coursework_kskr\obj\Debug\Coursework_kskr.csproj.GenerateResource.Cache
+C:\Users\_massive_attack_\Desktop\М\Coursework_kskr - копия\Coursework_kskr\obj\Debug\Coursework_kskr.exe
+C:\Users\_massive_attack_\Desktop\М\Coursework_kskr - копия\Coursework_kskr\obj\Debug\Coursework_kskr.pdb
+C:\Users\_massive_attack_\Desktop\М\Coursework_kskr - копия\Coursework_kskr\bin\Debug\Coursework_kskr.exe
+C:\Users\_massive_attack_\Desktop\М\Coursework_kskr - копия\Coursework_kskr\bin\Debug\Coursework_kskr.pdb
+C:\Users\_massive_attack_\Desktop\М\Coursework_kskr - копия\Coursework_kskr\obj\Debug\Coursework_kskr.csprojResolveAssemblyReference.cache
+C:\Users\_massive_attack_\Desktop\М\Coursework_kskr - копия\Coursework_kskr\obj\Debug\Coursework_kskr.MainForm.resources
+C:\Users\_massive_attack_\Desktop\М\Coursework_kskr - копия\Coursework_kskr\obj\Debug\Coursework_kskr.Properties.Resources.resources
+C:\Users\_massive_attack_\Desktop\М\Coursework_kskr - копия\Coursework_kskr\obj\Debug\Coursework_kskr.csproj.GenerateResource.Cache
+E:\Учеба\6 семестр\КСКР\Курсовая\Курсачи\Саня\Новое\Coursework_kskr - копия\Coursework_kskr\obj\Debug\Coursework_kskr.exe
+E:\Учеба\6 семестр\КСКР\Курсовая\Курсачи\Саня\Новое\Coursework_kskr - копия\Coursework_kskr\obj\Debug\Coursework_kskr.pdb
+E:\Учеба\6 семестр\КСКР\Курсовая\Курсачи\Саня\Новое\Coursework_kskr - копия\Coursework_kskr\bin\Debug\Coursework_kskr.exe
+E:\Учеба\6 семестр\КСКР\Курсовая\Курсачи\Саня\Новое\Coursework_kskr - копия\Coursework_kskr\bin\Debug\Coursework_kskr.pdb
+E:\Учеба\6 семестр\КСКР\Курсовая\Курсачи\Саня\Новое\Coursework_kskr - копия\Coursework_kskr\obj\Debug\Coursework_kskr.csprojResolveAssemblyReference.cache
+E:\Учеба\6 семестр\КСКР\Курсовая\Курсачи\Саня\Новое\Coursework_kskr - копия\Coursework_kskr\obj\Debug\Coursework_kskr.MainForm.resources
+E:\Учеба\6 семестр\КСКР\Курсовая\Курсачи\Саня\Новое\Coursework_kskr - копия\Coursework_kskr\obj\Debug\Coursework_kskr.Properties.Resources.resources
+E:\Учеба\6 семестр\КСКР\Курсовая\Курсачи\Саня\Новое\Coursework_kskr - копия\Coursework_kskr\obj\Debug\Coursework_kskr.csproj.GenerateResource.Cache
+E:\Учеба\6 семестр\КСКР\Курсовая\Курсачи\Ваня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.exe
+E:\Учеба\6 семестр\КСКР\Курсовая\Курсачи\Ваня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.pdb
+E:\Учеба\6 семестр\КСКР\Курсовая\Курсачи\Ваня\Coursework_kskr\Coursework_kskr\bin\Debug\Coursework_kskr.exe
+E:\Учеба\6 семестр\КСКР\Курсовая\Курсачи\Ваня\Coursework_kskr\Coursework_kskr\bin\Debug\Coursework_kskr.pdb
+E:\Учеба\6 семестр\КСКР\Курсовая\Курсачи\Ваня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csprojResolveAssemblyReference.cache
+E:\Учеба\6 семестр\КСКР\Курсовая\Курсачи\Ваня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.MainForm.resources
+E:\Учеба\6 семестр\КСКР\Курсовая\Курсачи\Ваня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.Properties.Resources.resources
+E:\Учеба\6 семестр\КСКР\Курсовая\Курсачи\Ваня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csproj.GenerateResource.Cache
+h:\Курсачи ЯНА КСКР\кскр\кскр\Курсовая\Курсачи\Ваня\Coursework_kskr\Coursework_kskr\bin\Debug\Coursework_kskr.exe
+h:\Курсачи ЯНА КСКР\кскр\кскр\Курсовая\Курсачи\Ваня\Coursework_kskr\Coursework_kskr\bin\Debug\Coursework_kskr.pdb
+h:\Курсачи ЯНА КСКР\кскр\кскр\Курсовая\Курсачи\Ваня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csprojResolveAssemblyReference.cache
+h:\Курсачи ЯНА КСКР\кскр\кскр\Курсовая\Курсачи\Ваня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.MainForm.resources
+h:\Курсачи ЯНА КСКР\кскр\кскр\Курсовая\Курсачи\Ваня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.Properties.Resources.resources
+h:\Курсачи ЯНА КСКР\кскр\кскр\Курсовая\Курсачи\Ваня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csproj.GenerateResource.Cache
+h:\Курсачи ЯНА КСКР\кскр\кскр\Курсовая\Курсачи\Ваня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csproj.CoreCompileInputs.cache
+h:\Курсачи ЯНА КСКР\кскр\кскр\Курсовая\Курсачи\Ваня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.exe
+h:\Курсачи ЯНА КСКР\кскр\кскр\Курсовая\Курсачи\Ваня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.pdb
+d:\курсач\Ваня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csprojResolveAssemblyReference.cache
+d:\курсач\Ваня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.Properties.Resources.resources
+d:\курсач\Ваня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csproj.GenerateResource.Cache
+d:\курсач\Ваня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csproj.CoreCompileInputs.cache
+d:\курсач\Ваня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.exe
+d:\курсач\Ваня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.pdb
+d:\курсач\Ваня\Coursework_kskr\Coursework_kskr\bin\Debug\Coursework_kskr.exe
+d:\курсач\Ваня\Coursework_kskr\Coursework_kskr\bin\Debug\Coursework_kskr.pdb
+d:\курсач\Ваня\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.Form1.resources
+d:\!!Курсовая\Coursework_kskr\Coursework_kskr\bin\Debug\Coursework_kskr.exe
+d:\!!Курсовая\Coursework_kskr\Coursework_kskr\bin\Debug\Coursework_kskr.pdb
+d:\!!Курсовая\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csprojResolveAssemblyReference.cache
+d:\!!Курсовая\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.Form1.resources
+d:\!!Курсовая\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.Properties.Resources.resources
+d:\!!Курсовая\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csproj.GenerateResource.Cache
+d:\!!Курсовая\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csproj.CoreCompileInputs.cache
+d:\!!Курсовая\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.exe
+d:\!!Курсовая\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.pdb
+G:\КСКЭР\Coursework_kskr\Coursework_kskr\bin\Debug\Coursework_kskr.exe
+G:\КСКЭР\Coursework_kskr\Coursework_kskr\bin\Debug\Coursework_kskr.pdb
+G:\КСКЭР\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csprojResolveAssemblyReference.cache
+G:\КСКЭР\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.Form1.resources
+G:\КСКЭР\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.Properties.Resources.resources
+G:\КСКЭР\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csproj.GenerateResource.cache
+G:\КСКЭР\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csproj.CoreCompileInputs.cache
+G:\КСКЭР\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.exe
+G:\КСКЭР\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.pdb
+d:\универ\3 курс\6 семестр\!!Курсовая\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csprojResolveAssemblyReference.cache
+d:\универ\3 курс\6 семестр\!!Курсовая\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.Form1.resources
+d:\универ\3 курс\6 семестр\!!Курсовая\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.Properties.Resources.resources
+d:\универ\3 курс\6 семестр\!!Курсовая\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csproj.GenerateResource.Cache
+d:\универ\3 курс\6 семестр\!!Курсовая\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.csproj.CoreCompileInputs.cache
+d:\универ\3 курс\6 семестр\!!Курсовая\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.exe
+d:\универ\3 курс\6 семестр\!!Курсовая\Coursework_kskr\Coursework_kskr\obj\Debug\Coursework_kskr.pdb
+d:\универ\3 курс\6 семестр\!!Курсовая\Coursework_kskr\Coursework_kskr\bin\Debug\Coursework_kskr.exe
+d:\универ\3 курс\6 семестр\!!Курсовая\Coursework_kskr\Coursework_kskr\bin\Debug\Coursework_kskr.pdb

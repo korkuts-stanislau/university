@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+}
+#main-div{
+    width:50%;
+    height: 100%;
+    margin:0 auto;
+    background-color: rgb(136, 197, 247);
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 25%;
+    height: 9%;
+    width: 50%;
+    background-color: rgb(41, 134, 221);
+}
+header{
+    background-color: rgb(41, 134, 221);
+}
+#logo-image{
+    width: 13%;
+    margin: 0.5%;
+    float: left;
+}
+#header-text{
+    text-align: center;
+    vertical-align: center;
+    padding: 3% 10%;
+}
+#menu-elements li{
+    display: inline;
+    font-size: 20px;
+    padding:0% 3.6%;
+    cursor: pointer;
+    color: rgb(109, 16, 109);
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border-bottom: solid black 1px;
+}
+#inform-block img{
+    width:100%
+}
+#inform-block{
+    display: none;
+}
+#first-task{
+    display: none;
+}
+#second-task{
+    display: none;
+}
+#third-task{
+    display: none;
+    font-size: 20px;
+}
+#empty-div{
+    height:80px;
+    background-color: #fff;
+}
+.right{
+    color:green;
+}
+.wrong{
+    color:red;
+}

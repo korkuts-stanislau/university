@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Коркуц Стас</title>
+    <script>
+        function getRandomInt(min, max)
+        {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+        ar = new Array(15);
+        for(i=0;i<15;i++)
+        {
+            ar[i]=getRandomInt(1,1000);
+            document.write(ar[i],'  ');
+        }
+        var min = ar[0],pos;
+        for(i=1;i<15;i++)
+            if(min>ar[i])
+            {
+                min=ar[i];
+                pos=i;
+            }
+        ar[14]=min;
+        ar[pos]=3*pos;
+        document.write('<br>');
+        for(i=0;i<15;i++)
+            document.write(ar[i],'  ');  
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

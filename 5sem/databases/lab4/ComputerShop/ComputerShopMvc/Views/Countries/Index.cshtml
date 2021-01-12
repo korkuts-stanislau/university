@@ -1,0 +1,27 @@
+﻿@model IEnumerable<ComputerShopMvc.Models.Country>
+@{ 
+    ViewData["title"] = "Список стран";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Список стран</title>
+</head>
+<body>
+    <h3>Страны</h3>
+    <table>
+        <tr>
+            <td>Название страны</td>
+        </tr>
+        @foreach (var country in Model)
+        {
+            <tr>
+                <td>@country.CountryName</td>
+            </tr>
+        }
+    </table>
+</body>
+</html>

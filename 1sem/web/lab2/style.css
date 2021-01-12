@@ -1,0 +1,83 @@
+.logo{
+	width: 50%;
+}
+.zagolovok{
+	font-size: 30px;
+	font-weight: bold;
+}
+header{
+	background-color: #0D47A1;
+	color:white;
+}
+.menu{
+	background-color: #2196F3;
+	border:solid 10px black;
+	vertical-align: top;
+	align-content: center;
+}
+.menu__item{
+	margin-top:30%;
+	margin-bottom: 50%;
+	padding: 15px;
+	font-size: 20px;
+
+
+}
+.menu__item a{
+	color: white;
+}
+.main__item{
+	background-image: url(img/bglogo.jpg);
+	border:solid 10px black;
+	color:white;
+	width: 70%;
+	background-size: cover;
+}
+.GSTU{
+	width: 50%;
+}
+.links{
+	background-color: #2196F3;
+	border:solid 10px black; 
+	vertical-align: top;
+	align-content: center;
+}
+.links li{
+    margin-top:30%;
+	margin-bottom: 50%;
+	font-size: 25px;
+	font-style: none;
+	color:white;
+	padding: 15px;
+}
+.links li a{
+	color:white;
+}
+.history{
+	font-size: 16px;
+}
+.navigation li:hover{
+	background-color: white;
+	color: #2196F3;
+}
+.navigation li a:hover{
+	text-decoration: none;
+}
+.links li:hover{
+	background-color: white;
+	text-decoration: none;	
+}
+.links li a:hover{
+	color: #2196F3;
+	text-decoration: none;
+}
+.main__item{
+	vertical-align: top;
+}
+.spisok{
+	font-size: 25px;
+}
+.timetable{
+	width:100%;
+	background-color: #4169E1;
+}

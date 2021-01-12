@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Коркуц Стас</title>
+    <script>
+        arTri = new Array(10);
+        for(i=0;i<10;i++)
+        {
+            arTri[i]=(i+1)*(i+2)/2;
+            document.write(arTri[i],'  ');
+        }
+        document.write('<br>');
+        arSqr = new Array(10);
+        for(i=0;i<10;i++)
+        {
+            arSqr[i]=(i+1)*(i+1);
+            document.write(arSqr[i],'  ');
+        }
+        document.write('<br>');
+        arRes = arTri.concat(arSqr);
+        for(i=0;i<20;i++)
+            document.write(arRes[i],'  ');
+        document.write('<br>');
+        arRes.sort(
+            function(a,b)
+            {
+                return b-a;//Для сортировки в обратном порядке по числам а не в лексикографическом порядке. Для сортировки в прямом порядке @return a-b@
+            }
+        );
+        for(i=0;i<20;i++)
+            document.write(arRes[i],'  ');  
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" action="~/Home/Index">
+            <label>Vector 1</label><br />
+            <input name="vector1" /><br />
+            <label>Vector 2</label><br />
+            <input name="vector2" /><br />
+            <select name="prod_types">
+                <option>vector</option>
+                <option>scalar</option>
+            </select>
+            <input type="submit" value="Compute" />
+        </form>
+        @ViewData["result"]
+    </div>
+</div>

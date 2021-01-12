@@ -1,0 +1,5 @@
+D:\korkuts-itp21-oop\lab6\DictionaryLib\bin\Debug\DictionaryLib.dll
+D:\korkuts-itp21-oop\lab6\DictionaryLib\bin\Debug\DictionaryLib.pdb
+D:\korkuts-itp21-oop\lab6\DictionaryLib\obj\Debug\DictionaryLib.csprojAssemblyReference.cache
+D:\korkuts-itp21-oop\lab6\DictionaryLib\obj\Debug\DictionaryLib.dll
+D:\korkuts-itp21-oop\lab6\DictionaryLib\obj\Debug\DictionaryLib.pdb

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<ComputerShopMvc.Models.Component>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Список компонентов</title>
+</head>
+<body>
+    <h3>Компоненты</h3>
+    <table>
+        <tr>
+            <td>Тип компонента</td>
+            <td>Модель</td>
+            <td>Производитель</td>
+            <td>Страна</td>
+            <td>Дата выпуска</td>
+            <td>Характеристики</td>
+            <td>Гарантия в месяцах</td>
+            <td>Описание</td>
+            <td>Цена</td>
+        </tr>
+        @foreach (var component in Model)
+        {
+            <tr>
+                <td>@component.ComponentType.ComponentTypeName</td>
+                <td>@component.ComponentModel</td>
+                <td>@component.Manufacturer.ManufacturerName</td>
+                <td>@component.Country.CountryName</td>
+                <td>@component.ComponentReleaseDate</td>
+                <td>@component.ComponentCharacteristics</td>
+                <td>@component.ComponentWarrantyPeriodInMonths</td>
+                <td>@component.ComponentDescription</td>
+                <td>@component.ComponentPrice</td>
+            </tr>
+        }
+    </table>
+</body>
+</html>

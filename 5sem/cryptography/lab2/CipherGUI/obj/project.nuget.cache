@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "B38+t8vY2nD0sj/blYl3QDJC8WJz/M2sWl8XJNvjEoqeZW8W4I+2whPcwrJizRUcuhG25ipDuIJ3nQzKgMO0lQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\stani\\OneDrive\\Cloud\\University\\5semOZI\\lab2\\CipherGUI\\CipherGUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stani\\.nuget\\packages\\accord\\3.8.0\\accord.3.8.0.nupkg.sha512",
+    "C:\\Users\\stani\\.nuget\\packages\\accord.math\\3.8.0\\accord.math.3.8.0.nupkg.sha512",
+    "C:\\Users\\stani\\.nuget\\packages\\system.numerics.tensors\\0.1.0\\system.numerics.tensors.0.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

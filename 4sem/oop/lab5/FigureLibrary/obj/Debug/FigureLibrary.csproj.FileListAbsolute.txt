@@ -1,0 +1,5 @@
+D:\korkuts-itp21-oop\lab5\FigureLibrary\bin\Debug\FigureLibrary.dll
+D:\korkuts-itp21-oop\lab5\FigureLibrary\bin\Debug\FigureLibrary.pdb
+D:\korkuts-itp21-oop\lab5\FigureLibrary\obj\Debug\FigureLibrary.csprojAssemblyReference.cache
+D:\korkuts-itp21-oop\lab5\FigureLibrary\obj\Debug\FigureLibrary.dll
+D:\korkuts-itp21-oop\lab5\FigureLibrary\obj\Debug\FigureLibrary.pdb

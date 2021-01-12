@@ -1,0 +1,61 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+	float xN,xK,dX,eps,element,arthX,y,yP;
+	int i;
+	
+	puts("Enter start value of X");
+	scanf("%f",&xN);
+	puts("Enter finish value of X");
+	scanf("%f",&xK);
+	puts("Enter foot of X");
+	scanf("%f",&dX);
+	puts("Enter accuracy for X");
+	scanf("%f",&eps);
+	
+	if(fabs(xN)<1 && fabs(xK)<1)
+	{
+		float x=xN;
+		puts("\xC9\xCD\xCD\xCD\xCD\xCD\xCD\xCB\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCB"
+	         "\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCB\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xBB");
+	    puts("\xBA   N  \xBA      X     \xBA      Y     \xBA    ArthX   \xBA");
+	    puts("\xCC\xCD\xCD\xCD\xCD\xCD\xCD\xCE\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCE\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCE\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xB9");
+	    
+		i=1;
+		int quantity = 0;
+		
+		while(x<=xK+dX/2)
+		{
+			
+			element=1;
+			y=x;
+			
+			while(fabs(element)>=eps)
+			{
+				element=x*x*(2*i-1)/(2*i+1)*element;
+				y+=element;
+				quantity++;
+			
+			}
+			
+			arthX=log((1+x)/(1-x))/2;
+			yP=arthX;			
+			printf("\xBA %3i  \xBA   %6.2f   \xBA   %6.3f   \xBA   %6.3f   \xBA\n",i,x,yP,arthX);
+			puts("\xCC\xCD\xCD\xCD\xCD\xCD\xCD\xCE\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCE\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCE\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xCD\xB9");
+			
+			i++;
+			x+=dX;
+		}
+	}
+	else
+	{
+		puts("");
+		puts("You're enter x bigger than 1!");
+	}
+		
+
+	getch(0);
+	return 0;
+}

@@ -1,0 +1,11 @@
+﻿<Subjects>
+     <Subject name="Математика" lecHours="128" labHours="64" controlType="Экзамен">
+          <Educator firstName="Александр" lastName="Бабич" middleName="Антонович" />
+     </Subject>
+     <Subject name="ООП" lecHours="160" labHours="80" controlType="Зачёт">
+          <Educator firstName="Константин" lastName="Курочка" middleName="Сергеевич" />
+     </Subject>
+     <Subject name="Базы данных" lecHours="144" labHours="72" controlType="ЗачётЭкзамен">
+          <Educator firstName="Олег" lastName="Асенчик" middleName="Даниилович" />
+     </Subject>
+</Subjects>

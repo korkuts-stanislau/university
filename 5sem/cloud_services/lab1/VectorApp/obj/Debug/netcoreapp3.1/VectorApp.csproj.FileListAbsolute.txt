@@ -1,0 +1,13 @@
+C:\Users\stani\OneDrive\Cloud\University\5semVOV\lab1\VectorApp\bin\Debug\netcoreapp3.1\VectorApp.exe
+C:\Users\stani\OneDrive\Cloud\University\5semVOV\lab1\VectorApp\bin\Debug\netcoreapp3.1\VectorApp.deps.json
+C:\Users\stani\OneDrive\Cloud\University\5semVOV\lab1\VectorApp\bin\Debug\netcoreapp3.1\VectorApp.runtimeconfig.json
+C:\Users\stani\OneDrive\Cloud\University\5semVOV\lab1\VectorApp\bin\Debug\netcoreapp3.1\VectorApp.runtimeconfig.dev.json
+C:\Users\stani\OneDrive\Cloud\University\5semVOV\lab1\VectorApp\bin\Debug\netcoreapp3.1\VectorApp.dll
+C:\Users\stani\OneDrive\Cloud\University\5semVOV\lab1\VectorApp\bin\Debug\netcoreapp3.1\VectorApp.pdb
+C:\Users\stani\OneDrive\Cloud\University\5semVOV\lab1\VectorApp\obj\Debug\netcoreapp3.1\VectorApp.csprojAssemblyReference.cache
+C:\Users\stani\OneDrive\Cloud\University\5semVOV\lab1\VectorApp\obj\Debug\netcoreapp3.1\VectorApp.AssemblyInfoInputs.cache
+C:\Users\stani\OneDrive\Cloud\University\5semVOV\lab1\VectorApp\obj\Debug\netcoreapp3.1\VectorApp.AssemblyInfo.cs
+C:\Users\stani\OneDrive\Cloud\University\5semVOV\lab1\VectorApp\obj\Debug\netcoreapp3.1\VectorApp.csproj.CoreCompileInputs.cache
+C:\Users\stani\OneDrive\Cloud\University\5semVOV\lab1\VectorApp\obj\Debug\netcoreapp3.1\VectorApp.dll
+C:\Users\stani\OneDrive\Cloud\University\5semVOV\lab1\VectorApp\obj\Debug\netcoreapp3.1\VectorApp.pdb
+C:\Users\stani\OneDrive\Cloud\University\5semVOV\lab1\VectorApp\obj\Debug\netcoreapp3.1\VectorApp.genruntimeconfig.cache

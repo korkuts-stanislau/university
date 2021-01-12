@@ -1,0 +1,6 @@
+D:\korkuts-itp21-oop\lab9\LinqOperations\bin\Debug\LinqOperations.exe.config
+D:\korkuts-itp21-oop\lab9\LinqOperations\bin\Debug\LinqOperations.exe
+D:\korkuts-itp21-oop\lab9\LinqOperations\bin\Debug\LinqOperations.pdb
+D:\korkuts-itp21-oop\lab9\LinqOperations\obj\Debug\LinqOperations.csprojAssemblyReference.cache
+D:\korkuts-itp21-oop\lab9\LinqOperations\obj\Debug\LinqOperations.exe
+D:\korkuts-itp21-oop\lab9\LinqOperations\obj\Debug\LinqOperations.pdb

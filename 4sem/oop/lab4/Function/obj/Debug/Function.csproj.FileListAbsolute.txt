@@ -1,0 +1,9 @@
+D:\korkuts-itp21-oop\lab4\Function\obj\Debug\Function.csprojAssemblyReference.cache
+D:\korkuts-itp21-oop\lab4\Function\obj\Debug\Function.Properties.Resources.resources
+D:\korkuts-itp21-oop\lab4\Function\obj\Debug\Function.csproj.GenerateResource.cache
+D:\korkuts-itp21-oop\lab4\Function\bin\Debug\Function.exe.config
+D:\korkuts-itp21-oop\lab4\Function\bin\Debug\Function.exe
+D:\korkuts-itp21-oop\lab4\Function\bin\Debug\Function.pdb
+D:\korkuts-itp21-oop\lab4\Function\obj\Debug\Function.ChartForm.resources
+D:\korkuts-itp21-oop\lab4\Function\obj\Debug\Function.exe
+D:\korkuts-itp21-oop\lab4\Function\obj\Debug\Function.pdb

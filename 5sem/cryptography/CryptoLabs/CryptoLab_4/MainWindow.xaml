@@ -1,0 +1,28 @@
+﻿<Window x:Class="CryptoLabs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CryptoLabs"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.618,0.48">
+        <TabControl HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="792">
+            <TabItem Header="RSA Cipher">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="119*"/>
+                        <ColumnDefinition Width="667*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="rsaEnIn" HorizontalAlignment="Left" Height="148" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="310" FontSize="15" Grid.ColumnSpan="2"/>
+                    <TextBox x:Name="rsaDecIn" HorizontalAlignment="Left" Height="148" Margin="347,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="310" FontSize="15" Grid.Column="1"/>
+                    <TextBox x:Name="rsaDecOut" HorizontalAlignment="Left" Height="148" Margin="347,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="310" FontSize="15" Grid.Column="1"/>
+                    <TextBox x:Name="rsaEnOut" HorizontalAlignment="Left" Height="148" Margin="10,233,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="310" FontSize="15" Grid.ColumnSpan="2"/>
+                    <Button Content="Encrypt" HorizontalAlignment="Left" Margin="10,163,0,0" VerticalAlignment="Top" Width="310" Height="65" FontSize="25" Grid.ColumnSpan="2" Click="Button_Click_1"/>
+                    <Button Content="Decrypt" HorizontalAlignment="Left" Margin="347,163,0,0" VerticalAlignment="Top" Width="310" Height="65" FontSize="25" Grid.Column="1" Click="Button_Click_2"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

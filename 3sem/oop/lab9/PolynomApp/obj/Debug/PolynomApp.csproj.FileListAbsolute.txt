@@ -1,0 +1,14 @@
+C:\korkuts_itp-21_oop\lab9\PolynomApp\bin\Debug\PolynomApp.exe.config
+C:\korkuts_itp-21_oop\lab9\PolynomApp\bin\Debug\PolynomApp.exe
+C:\korkuts_itp-21_oop\lab9\PolynomApp\bin\Debug\PolynomApp.pdb
+C:\korkuts_itp-21_oop\lab9\PolynomApp\bin\Debug\ExceptionLib.dll
+C:\korkuts_itp-21_oop\lab9\PolynomApp\bin\Debug\PolynomLib.dll
+C:\korkuts_itp-21_oop\lab9\PolynomApp\bin\Debug\ExceptionLib.pdb
+C:\korkuts_itp-21_oop\lab9\PolynomApp\bin\Debug\PolynomLib.pdb
+C:\korkuts_itp-21_oop\lab9\PolynomApp\obj\Debug\PolynomApp.csprojAssemblyReference.cache
+C:\korkuts_itp-21_oop\lab9\PolynomApp\obj\Debug\PolynomApp.Form1.resources
+C:\korkuts_itp-21_oop\lab9\PolynomApp\obj\Debug\PolynomApp.Properties.Resources.resources
+C:\korkuts_itp-21_oop\lab9\PolynomApp\obj\Debug\PolynomApp.csproj.GenerateResource.cache
+C:\korkuts_itp-21_oop\lab9\PolynomApp\obj\Debug\PolynomApp.csproj.CopyComplete
+C:\korkuts_itp-21_oop\lab9\PolynomApp\obj\Debug\PolynomApp.exe
+C:\korkuts_itp-21_oop\lab9\PolynomApp\obj\Debug\PolynomApp.pdb

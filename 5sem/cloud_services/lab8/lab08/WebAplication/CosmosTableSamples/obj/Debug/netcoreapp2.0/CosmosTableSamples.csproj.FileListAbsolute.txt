@@ -1,0 +1,66 @@
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\azure-cosmos-table-dotnet-core-getting-started-master\CosmosTableSamples\bin\Debug\netcoreapp2.0\Settings.json
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\azure-cosmos-table-dotnet-core-getting-started-master\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.deps.json
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\azure-cosmos-table-dotnet-core-getting-started-master\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.runtimeconfig.json
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\azure-cosmos-table-dotnet-core-getting-started-master\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.runtimeconfig.dev.json
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\azure-cosmos-table-dotnet-core-getting-started-master\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.dll
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\azure-cosmos-table-dotnet-core-getting-started-master\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.pdb
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\azure-cosmos-table-dotnet-core-getting-started-master\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.csprojAssemblyReference.cache
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\azure-cosmos-table-dotnet-core-getting-started-master\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.AssemblyInfoInputs.cache
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\azure-cosmos-table-dotnet-core-getting-started-master\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.AssemblyInfo.cs
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\azure-cosmos-table-dotnet-core-getting-started-master\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.csproj.CoreCompileInputs.cache
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\azure-cosmos-table-dotnet-core-getting-started-master\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.dll
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\azure-cosmos-table-dotnet-core-getting-started-master\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.pdb
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\azure-cosmos-table-dotnet-core-getting-started-master\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.genruntimeconfig.cache
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\lab\CosmosTableSamples\bin\Debug\netcoreapp2.0\Settings.json
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\lab\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.deps.json
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\lab\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.runtimeconfig.json
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\lab\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.runtimeconfig.dev.json
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\lab\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.dll
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\lab\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.pdb
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.csprojAssemblyReference.cache
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.AssemblyInfoInputs.cache
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.AssemblyInfo.cs
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.csproj.CoreCompileInputs.cache
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.dll
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.pdb
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab3\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.genruntimeconfig.cache
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab4\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.csprojAssemblyReference.cache
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab4\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.AssemblyInfoInputs.cache
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab4\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.AssemblyInfo.cs
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab4\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.csproj.CoreCompileInputs.cache
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab4\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.dll
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab4\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.pdb
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab4\lab\CosmosTableSamples\bin\Debug\netcoreapp2.0\Settings.json
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab4\lab\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.deps.json
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab4\lab\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.dll
+C:\Users\stani\OneDrive\Cloud\University\5sem\5semVOV\lab4\lab\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.pdb
+D:\Studying\5cem\ВОВ\lab4\lab\CosmosTableSamples\bin\Debug\netcoreapp2.0\Settings.json
+D:\Studying\5cem\ВОВ\lab4\lab\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.deps.json
+D:\Studying\5cem\ВОВ\lab4\lab\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.dll
+D:\Studying\5cem\ВОВ\lab4\lab\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.pdb
+D:\Studying\5cem\ВОВ\lab4\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.csprojAssemblyReference.cache
+D:\Studying\5cem\ВОВ\lab4\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.AssemblyInfoInputs.cache
+D:\Studying\5cem\ВОВ\lab4\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.AssemblyInfo.cs
+D:\Studying\5cem\ВОВ\lab4\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.csproj.CoreCompileInputs.cache
+D:\Studying\5cem\ВОВ\lab4\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.dll
+D:\Studying\5cem\ВОВ\lab4\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.pdb
+E:\Study\ВОВ (Гуменников)\lab4_5\lab\CosmosTableSamples\bin\Debug\netcoreapp2.0\Settings.json
+E:\Study\ВОВ (Гуменников)\lab4_5\lab\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.deps.json
+E:\Study\ВОВ (Гуменников)\lab4_5\lab\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.dll
+E:\Study\ВОВ (Гуменников)\lab4_5\lab\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.pdb
+E:\Study\ВОВ (Гуменников)\lab4_5\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.csprojAssemblyReference.cache
+E:\Study\ВОВ (Гуменников)\lab4_5\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.AssemblyInfoInputs.cache
+E:\Study\ВОВ (Гуменников)\lab4_5\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.AssemblyInfo.cs
+E:\Study\ВОВ (Гуменников)\lab4_5\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.csproj.CoreCompileInputs.cache
+E:\Study\ВОВ (Гуменников)\lab4_5\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.dll
+E:\Study\ВОВ (Гуменников)\lab4_5\lab\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.pdb
+E:\Study\ВОВ (Гуменников)\lab08\WebAplication\CosmosTableSamples\bin\Debug\netcoreapp2.0\Settings.json
+E:\Study\ВОВ (Гуменников)\lab08\WebAplication\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.deps.json
+E:\Study\ВОВ (Гуменников)\lab08\WebAplication\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.dll
+E:\Study\ВОВ (Гуменников)\lab08\WebAplication\CosmosTableSamples\bin\Debug\netcoreapp2.0\CosmosTableSamples.pdb
+E:\Study\ВОВ (Гуменников)\lab08\WebAplication\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.csprojAssemblyReference.cache
+E:\Study\ВОВ (Гуменников)\lab08\WebAplication\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.AssemblyInfoInputs.cache
+E:\Study\ВОВ (Гуменников)\lab08\WebAplication\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.AssemblyInfo.cs
+E:\Study\ВОВ (Гуменников)\lab08\WebAplication\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.csproj.CoreCompileInputs.cache
+E:\Study\ВОВ (Гуменников)\lab08\WebAplication\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.dll
+E:\Study\ВОВ (Гуменников)\lab08\WebAplication\CosmosTableSamples\obj\Debug\netcoreapp2.0\CosmosTableSamples.pdb

@@ -1,0 +1,6 @@
+C:\Users\saymo\source\repos\CryptoLabs\CryptoLibrary\bin\Debug\CryptoLibrary.dll
+C:\Users\saymo\source\repos\CryptoLabs\CryptoLibrary\bin\Debug\CryptoLibrary.pdb
+C:\Users\saymo\source\repos\CryptoLabs\CryptoLibrary\obj\Debug\CryptoLibrary.csprojAssemblyReference.cache
+C:\Users\saymo\source\repos\CryptoLabs\CryptoLibrary\obj\Debug\CryptoLibrary.csproj.CoreCompileInputs.cache
+C:\Users\saymo\source\repos\CryptoLabs\CryptoLibrary\obj\Debug\CryptoLibrary.dll
+C:\Users\saymo\source\repos\CryptoLabs\CryptoLibrary\obj\Debug\CryptoLibrary.pdb

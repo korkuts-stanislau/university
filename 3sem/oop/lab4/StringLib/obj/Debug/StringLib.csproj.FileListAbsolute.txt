@@ -1,0 +1,5 @@
+C:\korkuts_itp-21_oop\lab4\StringLib\bin\Debug\StringLib.dll
+C:\korkuts_itp-21_oop\lab4\StringLib\bin\Debug\StringLib.pdb
+C:\korkuts_itp-21_oop\lab4\StringLib\obj\Debug\StringLib.csprojAssemblyReference.cache
+C:\korkuts_itp-21_oop\lab4\StringLib\obj\Debug\StringLib.dll
+C:\korkuts_itp-21_oop\lab4\StringLib\obj\Debug\StringLib.pdb

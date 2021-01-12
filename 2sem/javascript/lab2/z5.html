@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Коркуц Стас</title>
+    <script>
+        var fruits =['apple','pineapple','mango','melon','grape']; 
+        var citrus =['orange','lemon','lime'];
+        document.write(fruits);
+        document.write('<br>');
+        document.write(citrus);
+        document.write('<br>');
+        fruits=fruits.concat(citrus);
+        document.write(fruits);
+        document.write('<br>');
+        var add = ['pear','cherry','plum','raspberry','strawberry'];
+        fruits.splice(3, 0 ,add);
+        document.write(fruits);
+        document.write('<br>');
+        fruits.pop();
+        fruits.pop();
+        fruits.pop();
+        document.write(fruits);
+        document.write('<br>');
+        fruits.sort();
+        document.write(fruits);
+        document.write('<br>');
+        fruits.reverse();
+        document.write(fruits);
+        document.write('<br>');
+        fruits.sort(
+        function(a, b)
+        {
+            return b.length - a.length;
+        }
+        );
+        document.write(fruits);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

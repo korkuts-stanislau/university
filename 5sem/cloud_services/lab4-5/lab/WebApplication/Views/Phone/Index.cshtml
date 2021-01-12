@@ -1,0 +1,53 @@
+﻿@model WebApplication.ViewModels.IndexPhoneViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    var defaultPhone = Model.Phones.FirstOrDefault();
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Manufacturer
+            </th>
+            <th>
+                Country
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => defaultPhone.ModelName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => defaultPhone.Price)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Phones) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => Model.Manufacturers[item.ManufacturerId.ToString()])
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => Model.Countries[item.CountryId.ToString()])
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ModelName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.RowKey  }) |
+                @Html.ActionLink("Delete", "Delete", new {  id=item.RowKey })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

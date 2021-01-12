@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Subjects">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Subject" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Educator">
+                <xs:complexType>
+                  <xs:attribute name="firstName"/>
+                  <xs:attribute name="lastName"/>
+                  <xs:attribute name="middleName"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="name" type="xs:string"/>
+            <xs:attribute name="lecHours">
+              <xs:simpleType>
+                <xs:restriction base="xs:integer">
+                  <xs:minExclusive value="0"/>
+                  <xs:maxExclusive value="200"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="labHours">
+              <xs:simpleType>
+                <xs:restriction base="xs:integer">
+                  <xs:minExclusive value="0"/>
+                  <xs:maxExclusive value="200"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+            <xs:attribute name="controlType">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="Экзамен"/>
+                  <xs:enumeration value="Зачёт"/>
+                  <xs:enumeration value="ЗачётЭкзамен"/>
+                  <xs:enumeration value="Тест"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

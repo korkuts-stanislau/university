@@ -1,0 +1,9 @@
+C:\korkuts_itp-21_oop\lab5\DataParserApp\bin\Debug\DataParserApp.exe.config
+C:\korkuts_itp-21_oop\lab5\DataParserApp\bin\Debug\DataParserApp.exe
+C:\korkuts_itp-21_oop\lab5\DataParserApp\bin\Debug\DataParserApp.pdb
+C:\korkuts_itp-21_oop\lab5\DataParserApp\bin\Debug\DataParser.dll
+C:\korkuts_itp-21_oop\lab5\DataParserApp\bin\Debug\DataParser.pdb
+C:\korkuts_itp-21_oop\lab5\DataParserApp\obj\x86\Debug\DataParserApp.csprojAssemblyReference.cache
+C:\korkuts_itp-21_oop\lab5\DataParserApp\obj\x86\Debug\DataParserApp.csproj.CopyComplete
+C:\korkuts_itp-21_oop\lab5\DataParserApp\obj\x86\Debug\DataParserApp.exe
+C:\korkuts_itp-21_oop\lab5\DataParserApp\obj\x86\Debug\DataParserApp.pdb

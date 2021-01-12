@@ -1,0 +1,5 @@
+John Pentagon Engineer 12 5 2018 Dentist Ok
+Maria Apple Programmer 12 5 2018 Surgeon Good
+George Microsoft Engineer 3 8 2011 Psyhiatrist Bad
+Henry None Lumberjack 12 5 2018 Dermatologist Nice
+Joshua MacDonalds Manager 3 8 2011 Cardiologist Awfull

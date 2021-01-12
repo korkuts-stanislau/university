@@ -1,0 +1,4 @@
+C:\korkuts_itp-21_oop\lab5\DataParser\bin\Debug\DataParser.dll
+C:\korkuts_itp-21_oop\lab5\DataParser\bin\Debug\DataParser.pdb
+C:\korkuts_itp-21_oop\lab5\DataParser\obj\Debug\DataParser.dll
+C:\korkuts_itp-21_oop\lab5\DataParser\obj\Debug\DataParser.pdb

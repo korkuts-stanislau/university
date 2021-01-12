@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function func()
+        {
+            var string=document.getElementById('inp').value;
+            var form=document.getElementById('form');
+            var strAr=string.split(' ');
+            var tmp,count=0;
+            tmp=strAr[2];
+            strAr[2]=strAr[0];
+            strAr[0]=tmp;
+            string=strAr.join(' ');
+            for(i=0;i<strAr.length;i++)
+            {
+                var letAr=strAr[i].split('');
+                if(letAr[0]==letAr[letAr.length-1])
+                    count++;
+            }
+            form.innerHTML+='<p>Новая строка...<br>'+string+'</p>';
+            form.innerHTML+='<p>Количество слов, у которых первая и последняя буквы совпадают =<br>'+count+'</p>';
+        }
+    </script>
+    <center><h1>Введите строку</h1></center>
+    <input id="inp" type="text">
+    <center><button onclick="func()" id="but">Выполнить программу</button></center>
+    <form id="form"></form>
+    <style>
+        input{
+            width:99%;
+            height: 40px;
+            margin-left: 0.5%;
+            margin-right: 0.5%;
+        }
+        #but{
+            margin: 3% 0%;
+            width:10%;
+            height:6%;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,116 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\VITEK\\Documents\\Course_3\\Term_1\\ВОВ\\Lab_1\\korobkinLab1Vov\\Matrix\\MatrixApp\\MatrixApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\VITEK\\Documents\\Course_3\\Term_1\\ВОВ\\Lab_1\\korobkinLab1Vov\\Matrix\\MatrixApp\\MatrixApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VITEK\\Documents\\Course_3\\Term_1\\ВОВ\\Lab_1\\korobkinLab1Vov\\Matrix\\MatrixApp\\MatrixApp.csproj",
+        "projectName": "MatrixApp",
+        "projectPath": "C:\\Users\\VITEK\\Documents\\Course_3\\Term_1\\ВОВ\\Lab_1\\korobkinLab1Vov\\Matrix\\MatrixApp\\MatrixApp.csproj",
+        "packagesPath": "C:\\Users\\VITEK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VITEK\\Documents\\Course_3\\Term_1\\ВОВ\\Lab_1\\korobkinLab1Vov\\Matrix\\MatrixApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VITEK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\VITEK\\Documents\\Course_3\\Term_1\\ВОВ\\Lab_1\\korobkinLab1Vov\\Matrix\\MatrixLib\\MatrixLib.csproj": {
+                "projectPath": "C:\\Users\\VITEK\\Documents\\Course_3\\Term_1\\ВОВ\\Lab_1\\korobkinLab1Vov\\Matrix\\MatrixLib\\MatrixLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\VITEK\\Documents\\Course_3\\Term_1\\ВОВ\\Lab_1\\korobkinLab1Vov\\Matrix\\MatrixLib\\MatrixLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VITEK\\Documents\\Course_3\\Term_1\\ВОВ\\Lab_1\\korobkinLab1Vov\\Matrix\\MatrixLib\\MatrixLib.csproj",
+        "projectName": "MatrixLib",
+        "projectPath": "C:\\Users\\VITEK\\Documents\\Course_3\\Term_1\\ВОВ\\Lab_1\\korobkinLab1Vov\\Matrix\\MatrixLib\\MatrixLib.csproj",
+        "packagesPath": "C:\\Users\\VITEK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VITEK\\Documents\\Course_3\\Term_1\\ВОВ\\Lab_1\\korobkinLab1Vov\\Matrix\\MatrixLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\VITEK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

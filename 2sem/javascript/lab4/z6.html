@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Коркуц Стас</title>
+</head>
+<body>
+    <script>
+        function func()
+        {
+            var chbox1,chbox2,chbox3,radio1,radio2,radio3;
+            chbox1=document.getElementById('FC');
+            chbox2=document.getElementById('SC');
+            chbox3=document.getElementById('TC');
+            radio1=document.getElementById('FR');
+            radio2=document.getElementById('SR');
+            radio3=document.getElementById('TR');
+            if(radio1.checked)
+            {
+                document.getElementById('cell').style.textAlign='left';
+            }
+            else 
+                if(radio2.checked)
+                {
+                    document.getElementById('cell').style.textAlign='center';
+                }
+                else 
+                    if(radio3.checked)
+                    {
+                        document.getElementById('cell').style.textAlign='right';
+                    }
+            if(chbox1.checked)
+            {
+                document.getElementById('cell').style.verticalAlign='top';
+            }
+            else 
+                if(chbox2.checked)
+                {
+                    document.getElementById('cell').style.verticalAlign='middle';
+                }
+                else 
+                    if(chbox3.checked)
+                    {
+                        document.getElementById('cell').style.verticalAlign='bottom';
+                    }
+        }
+    </script>
+    <center>
+    <table border="1px">
+        <tr>
+            <td id="cell">
+                Банан
+            </td>
+        </tr>
+    </table>
+    <h4>Выберите горизонтальное расположение:</h4>
+    <input name="Radio" type="radio" id="FR"><p>Слева</p><br>
+    <input name="Radio" type="radio" id="SR"><p>По центру</p><br>
+    <input name="Radio" type="radio" id="TR"><p>Справа</p><br>
+    <h4>Выберите вертикальное расположение:</h4>
+    <input name="Checkbox" type="checkbox" id="FC"><p>Сверху</p><br>
+    <input name="Checkbox" type="checkbox" id="SC"><p>По середине</p><br>
+    <input name="Checkbox" type="checkbox" id="TC"><p>снизу</p><br><br>
+    <button type="submit" onclick="func()">Выполнить</button>
+    </center>
+    <style>
+        #cell{
+            height: 100px;
+            width: 100px;
+            text-align: left;
+            vertical-align:top;
+        }
+        p{
+            display: inline;   
+        }
+        input{
+            position:absolute;
+            left: 45%;
+        }
+    </style>
+</body>
+</html>

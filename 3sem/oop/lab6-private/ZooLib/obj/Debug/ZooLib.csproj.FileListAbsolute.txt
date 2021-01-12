@@ -1,0 +1,5 @@
+C:\korkuts_itp-21_oop\lab6-private\ZooLib\bin\Debug\ZooLib.dll
+C:\korkuts_itp-21_oop\lab6-private\ZooLib\bin\Debug\ZooLib.pdb
+C:\korkuts_itp-21_oop\lab6-private\ZooLib\obj\Debug\ZooLib.csprojAssemblyReference.cache
+C:\korkuts_itp-21_oop\lab6-private\ZooLib\obj\Debug\ZooLib.dll
+C:\korkuts_itp-21_oop\lab6-private\ZooLib\obj\Debug\ZooLib.pdb

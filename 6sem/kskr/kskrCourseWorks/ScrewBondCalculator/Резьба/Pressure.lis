@@ -1,0 +1,28 @@
+
+ *** NOTE ***                            CP =     108.265   TIME= 14:40:19
+ The surface loads listed are the current database values and are not    
+ necessarily the values corresponding to the current results data set.   
+ Tabular boundary conditions, however, do list values corresponding to   
+ the current results set.                                                
+
+ LIST NODAL SURFACE LOAD PRES FOR ALL SELECTED NODES
+
+
+ ELEMENT  LKEY     FACE NODES             REAL           IMAGINARY
+       8     2           2            5000.00000      0.00000000                   
+                        21            5000.00000      0.00000000    
+      17     2          15            5000.00000      0.00000000                   
+                         1            5000.00000      0.00000000    
+     263     1          16            5000.00000      0.00000000                   
+                        15            5000.00000      0.00000000    
+     264     1          17            5000.00000      0.00000000                   
+                        16            5000.00000      0.00000000    
+     265     1          18            5000.00000      0.00000000                   
+                        17            5000.00000      0.00000000    
+     266     1          19            5000.00000      0.00000000                   
+                        18            5000.00000      0.00000000    
+     267     1          20            5000.00000      0.00000000                   
+                        19            5000.00000      0.00000000    
+     268     1          21            5000.00000      0.00000000                   
+                        20            5000.00000      0.00000000    
+

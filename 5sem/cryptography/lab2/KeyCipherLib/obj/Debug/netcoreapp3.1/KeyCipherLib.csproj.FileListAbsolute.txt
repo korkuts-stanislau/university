@@ -1,0 +1,10 @@
+C:\Users\stani\OneDrive\Cloud\University\5semOZI\lab2\KeyCipherLib\bin\Debug\netcoreapp3.1\KeyCipherLib.deps.json
+C:\Users\stani\OneDrive\Cloud\University\5semOZI\lab2\KeyCipherLib\bin\Debug\netcoreapp3.1\KeyCipherLib.dll
+C:\Users\stani\OneDrive\Cloud\University\5semOZI\lab2\KeyCipherLib\obj\Debug\netcoreapp3.1\KeyCipherLib.csprojAssemblyReference.cache
+C:\Users\stani\OneDrive\Cloud\University\5semOZI\lab2\KeyCipherLib\obj\Debug\netcoreapp3.1\KeyCipherLib.AssemblyInfoInputs.cache
+C:\Users\stani\OneDrive\Cloud\University\5semOZI\lab2\KeyCipherLib\obj\Debug\netcoreapp3.1\KeyCipherLib.AssemblyInfo.cs
+C:\Users\stani\OneDrive\Cloud\University\5semOZI\lab2\KeyCipherLib\obj\Debug\netcoreapp3.1\KeyCipherLib.csproj.CoreCompileInputs.cache
+C:\Users\stani\OneDrive\Cloud\University\5semOZI\lab2\KeyCipherLib\bin\Debug\netcoreapp3.1\Accord.dll.config
+C:\Users\stani\OneDrive\Cloud\University\5semOZI\lab2\KeyCipherLib\bin\Debug\netcoreapp3.1\KeyCipherLib.pdb
+C:\Users\stani\OneDrive\Cloud\University\5semOZI\lab2\KeyCipherLib\obj\Debug\netcoreapp3.1\KeyCipherLib.dll
+C:\Users\stani\OneDrive\Cloud\University\5semOZI\lab2\KeyCipherLib\obj\Debug\netcoreapp3.1\KeyCipherLib.pdb

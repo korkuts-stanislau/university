@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function func()
+        {
+            var string=document.getElementById('inp').value;
+            var form=document.getElementById('form');
+            var strAr=string.split('');
+            for(i=0;i<strAr.length;i++)
+            {
+                if(strAr[i]!='я' && strAr[i]!='Я' && strAr[i]!=' ')
+                {
+                    var charcode=string.charCodeAt(i);
+                    charcode++;
+                    strAr[i]=String.fromCharCode(charcode);    
+                }
+                else if(strAr[i]!='я' && strAr[i]!=' ')
+                    strAr[i]='А';
+                else if(strAr[i]!=' ')
+                    strAr[i]='а';
+                else   
+                    strAr[i]=' '; 
+            }
+            string=strAr.join('');
+            form.innerHTML+='<p>После шифровки строка имеет вид...<br>'+string+'</p>';
+        }
+    </script>
+    <center><h1>Введите строку</h1></center>
+    <input id="inp" type="text">
+    <center><button onclick="func()" id="but">Выполнить программу</button></center>
+    <form id="form"></form>
+    <style>
+        input{
+            width:99%;
+            height: 40px;
+            margin-left: 0.5%;
+            margin-right: 0.5%;
+        }
+        #but{
+            margin: 3% 0%;
+            width:10%;
+            height:6%;
+        }
+    </style>
+</body>
+</html>

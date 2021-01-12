@@ -1,0 +1,8 @@
+C:\korkuts_itp-21_oop\lab9\PolynomLib\bin\Debug\PolynomLib.dll
+C:\korkuts_itp-21_oop\lab9\PolynomLib\bin\Debug\PolynomLib.pdb
+C:\korkuts_itp-21_oop\lab9\PolynomLib\bin\Debug\ExceptionLib.dll
+C:\korkuts_itp-21_oop\lab9\PolynomLib\bin\Debug\ExceptionLib.pdb
+C:\korkuts_itp-21_oop\lab9\PolynomLib\obj\Debug\PolynomLib.csprojAssemblyReference.cache
+C:\korkuts_itp-21_oop\lab9\PolynomLib\obj\Debug\PolynomLib.csproj.CopyComplete
+C:\korkuts_itp-21_oop\lab9\PolynomLib\obj\Debug\PolynomLib.dll
+C:\korkuts_itp-21_oop\lab9\PolynomLib\obj\Debug\PolynomLib.pdb

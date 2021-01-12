@@ -1,0 +1,105 @@
+ void parse()
+        {
+            string[] devidedString;
+            double load, puasson;
+            List<Nod> loadedNods = new List<Nod>();
+            List<Tuple<Nod, Nod, double>> linkedNods = new List<Tuple<Nod, Nod, double>>();
+            if (nodesFormats != null && elementsFormats != null && constraintsFormat != null && loadsFormat != null && Double.TryParse(loadsTB.Text, out load) && Double.TryParse(puassonTB.Text, out puasson))
+            {
+                //Ниже парсятся узлы которые нагруженылучаются, получаются их номера в конечноэлементной сетке
+                List<int> numbersOfloadedNods = new List<int>(); //номера нагруженных узлов
+                for (int i = 0, nod; i < loadsFormat.Length; i++)
+                {
+                    devidedString = loadsFormat[i].Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                    if(devidedString.Length == 5)
+                    {
+                        if (Int32.TryParse(devidedString[2].Trim(), out nod) && !numbersOfloadedNods.Contains<int>(nod))
+                        { 
+                            numbersOfloadedNods.Add(nod); 
+                        }
+                    }
+                }
+
+                string strP = "";
+                foreach (int n in numbersOfloadedNods)
+                {
+                    strP += (n + " ");
+                }
+                MessageBox.Show(strP);
+
+                //парсятся все узлы
+                int number;
+                double x, y;
+                foreach (string str1 in nodesFormats)
+                {
+                    devidedString = str1.Split(' ');
+                    if (devidedString.Length == 7)
+                    {
+                        if (Int32.TryParse(devidedString[0].Trim(), out number) && Double.TryParse(devidedString[1].Trim(), out x) && Double.TryParse(devidedString[2].Trim(), out y))
+                        {
+                            nods.Add(new Nod(number, x, y));
+                            if (numbersOfloadedNods.Contains(number))//если узел нагружен, добавить его в список нагруженных узлов
+                            {
+                                loadedNods.Add(nods.Last());
+                            }
+                        }
+                    }
+                }
+
+                //ниже находятся все узлы, к которым прикладываются силы и они группируются попарно
+                double minDistance, currentDistance;
+                for (int i1 = 0; i1 < loadedNods.Count-1; i1++)
+                {
+                    //тут короче все сложно, не забивай голову. Вобщем находятся пары близлежащих узлов, критерием их поиска
+                    //является расстояние,  для каждого узла находится минимальное расстояние до другого узла, после эти два 
+                    //узла запоминаются 
+                    minDistance = double.MaxValue;
+                    linkedNods.Add(new Tuple<Nod, Nod, double>(loadedNods[i1], loadedNods[i1], 0));
+                    for (int i2 = i1+1; i2 < loadedNods.Count; i2++)
+                    {
+                        currentDistance = loadedNods[i1].GetDistanceTo(loadedNods[i2]);
+                        if (minDistance > currentDistance)
+                        {
+                            minDistance = currentDistance;
+                            linkedNods[i1] = new Tuple<Nod, Nod, double>(loadedNods[i1], loadedNods[i2], currentDistance);
+                        }
+                    }
+                }
+
+                //добавдение нагрузок всем узлам, так как у меня нагрузка только по X нагружаю соответственно только X
+                double totalSummLengthOfLoadedLine = 0;
+                Nod someNode1, someNode2;
+                foreach (Tuple<Nod, Nod, double> s in linkedNods)
+                {
+                    totalSummLengthOfLoadedLine += s.Item3;
+                }
+                foreach (Tuple<Nod, Nod, double> s in linkedNods)
+                {
+                    someNode1 = s.Item1;
+                    someNode2 = s.Item2;
+                    someNode1.XLoad += (s.Item3 / totalSummLengthOfLoadedLine / 2) * load;
+                    someNode2.XLoad += (s.Item3 / totalSummLengthOfLoadedLine / 2) * load;
+                }
+
+
+                //тут вывод всех узлов
+                int i5 = 0;
+                string outP = "";
+                foreach (Nod n in nods)
+                {
+                    i5++;
+                    outP += (n.ToString() + "/n");
+                    if (i5 == 10)
+                    {
+                        MessageBox.Show(outP);
+                        i5 = 0;
+                        outP = "";
+                    }
+                }
+                MessageBox.Show(outP);
+
+            }
+            else
+                MessageBox.Show("Не загружены данные для рассчета либо они инвалидны.");
+   
+        }

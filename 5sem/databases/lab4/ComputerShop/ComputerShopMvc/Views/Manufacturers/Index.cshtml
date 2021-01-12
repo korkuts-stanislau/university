@@ -1,0 +1,27 @@
+﻿@model IEnumerable<ComputerShopMvc.Models.Manufacturer>
+@{
+    ViewData["title"] = "Список производителей";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Список производителей</title>
+</head>
+<body>
+    <h3>Производители</h3>
+    <table>
+        <tr>
+            <td>Название производителя</td>
+        </tr>
+        @foreach (var manufacturer in Model)
+        {
+            <tr>
+                <td>@manufacturer.ManufacturerName</td>
+            </tr>
+        }
+    </table>
+</body>
+</html>
