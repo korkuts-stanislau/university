@@ -1,0 +1,12 @@
+1) Make subscriber +
+2) Make admin +
+3) Make phone plan +
+4) Make phone service +
+5) Make subscriber can pay for phone plan and services +
+6) Make subscriber panel
+7) Make subscriber requests
+8) Make subscriber can do requests to admin for phone number changing and remove services
+9) Make authorization +
+10) Make admin panel
+11) Make admin can look at subscriber requests and approve there with admin panel
+12) Make admin can disconnect subscriber because of non-payment

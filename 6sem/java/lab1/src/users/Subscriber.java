@@ -12,15 +12,17 @@ public class Subscriber extends User{
     private boolean _isServicesPaid;
     private final List<PhoneService> _services;
     private PhonePlan _phonePlan;
+    private boolean _isUserDisconnected;
 
     public Subscriber(String username, String password, String phoneNumber, double accountMoney, double phoneCallSeconds,
-                      List<PhoneService> services, PhonePlan phonePlan) {
+                      List<PhoneService> services, PhonePlan phonePlan, boolean isUserDisconnected) {
         super(username, password);
         _phoneNumber = phoneNumber;
         _accountMoney = accountMoney;
         _phoneCallSeconds = phoneCallSeconds;
         _services = services;
         _phonePlan = phonePlan;
+        _isUserDisconnected = isUserDisconnected;
     }
 
     public String getPhoneNumber() {
@@ -68,6 +70,13 @@ public class Subscriber extends User{
         _isServicesPaid = false;
     }
 
+    public void makeUserDisconnected() throws Exception {
+        if(_isUserDisconnected) {
+            throw new Exception("Пользователь уже отключён");
+        }
+        _isUserDisconnected = true;
+    }
+
     public void payForServices() throws Exception {
         if(_isServicesPaid) {
             throw new Exception("Услуги уже оплачены");
@@ -86,7 +95,7 @@ public class Subscriber extends User{
 
     public void changePhoneNumber(String newPhoneNumber) throws Exception {
         if(newPhoneNumber.equals(_phoneNumber)) {
-            throw new Exception("Поптыка изменения номера на текущий номер");
+            throw new Exception("Попытка изменения номера на текущий номер");
         }
         _phoneNumber = newPhoneNumber;
     }
@@ -115,6 +124,9 @@ public class Subscriber extends User{
     }
 
     public void makePhoneCall(int seconds) throws Exception {
+        if(_isUserDisconnected) {
+            throw new Exception("Пользователь отключен из-за неуплаты услуг");
+        }
         if(seconds < 1) {
             throw new Exception("Разговор не может длиться меньше одной секунды");
         }
