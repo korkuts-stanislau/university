@@ -1,5 +1,6 @@
 package users;
 
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import station.PhonePlan;
 import station.PhoneService;
 
@@ -47,6 +48,10 @@ public class Subscriber extends User{
 
     public double getPhoneCallDebt() {
         return _phoneCallSeconds * _phonePlan.getPricePerCallSecond();
+    }
+
+    public PhonePlan getPhonePlan() {
+        return _phonePlan;
     }
 
     public void addService(PhoneService service) throws Exception{

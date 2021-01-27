@@ -7,13 +7,9 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 
 public class Path {
-    private static final String basePath = "/home/stanislau/university/6sem/java/lab1/src/data/paths.json";
-
-    public Path() throws Exception {
-        throw new Exception("Нельзя создать этот объект напрямую, необходимо воспользоваться статическим методом");
-    }
-
     public String commonPath;
+    public String commonWinPath;
+    public String commonLinuxPath;
     public String pathToPhoneChangeRequests;
     public String pathToDeclineServiceRequests;
     public String pathToAdmins;
@@ -21,9 +17,23 @@ public class Path {
     public String pathToPhonePlans;
     public String pathToPhoneServices;
 
-    public static Path getPath() throws Exception, JsonMappingException {
+    public static Path getPath() throws Exception {
+        String basePath;
+        if(System.getProperty("os.name").contains("Windows")) {
+             basePath = "D:\\university\\6sem\\java\\lab1\\src\\data\\paths.json";
+        }
+        else {
+            basePath = "/home/stanislau/university/6sem/java/lab1/src/data/paths.json";
+        }
         BufferedReader in = new BufferedReader(new FileReader(basePath));
         ObjectMapper mapper = new ObjectMapper();
-        return (Path)mapper.readValue(in, Path.class);
+        Path path = mapper.readValue(in, Path.class);
+        if(System.getProperty("os.name").contains("Windows")) {
+            path.commonPath = path.commonWinPath;
+        }
+        else {
+            path.commonPath = path.commonLinuxPath;
+        }
+        return path;
     }
 }

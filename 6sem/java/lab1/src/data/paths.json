@@ -1,5 +1,6 @@
 {
-  "commonPath": "/home/stanislau/university/6sem/java/lab1/data/",
+  "commonWinPath": "D:\\university\\6sem\\java\\lab1\\data\\",
+  "commonLinuxPath": "/home/stanislau/university/6sem/java/lab1/data/",
   "pathToPhoneChangeRequests": "phoneChangeRequests.json",
   "pathToDeclineServiceRequests" : "declineServiceRequests.json",
   "pathToAdmins": "admins.json",
