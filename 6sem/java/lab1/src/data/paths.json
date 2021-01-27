@@ -1,0 +1,9 @@
+{
+  "commonPath": "/home/stanislau/university/6sem/java/lab1/data/",
+  "pathToPhoneChangeRequests": "phoneChangeRequests.json",
+  "pathToDeclineServiceRequests" : "declineServiceRequests.json",
+  "pathToAdmins": "admins.json",
+  "pathToSubscribers": "subscribers.json",
+  "pathToPhonePlans": "plans.json",
+  "pathToPhoneServices": "services.json"
+}
