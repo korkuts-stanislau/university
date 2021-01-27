@@ -9,6 +9,10 @@ import java.io.FileReader;
 public class Path {
     private static final String basePath = "/home/stanislau/university/6sem/java/lab1/src/data/paths.json";
 
+    public Path() throws Exception {
+        throw new Exception("Нельзя создать этот объект напрямую, необходимо воспользоваться статическим методом");
+    }
+
     public String commonPath;
     public String pathToPhoneChangeRequests;
     public String pathToDeclineServiceRequests;
