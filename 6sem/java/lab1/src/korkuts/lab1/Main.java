@@ -2,12 +2,12 @@ package korkuts.lab1;
 
 import data.DataStorage;
 import data.Path;
+import panels.StartPanel;
 import station.PhonePlan;
 import station.PhoneService;
 import users.Admin;
 import users.Subscriber;
 import users.User;
-import users.requests.DeclineServiceRequest;
 import users.requests.PhoneChangeRequest;
 import users.requests.Request;
 
@@ -17,7 +17,13 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        primaryDataInitialization();
+        //primaryDataInitialization();
+        start();
+    }
+
+    private static void start() {
+        StartPanel panel = new StartPanel();
+        panel.menu();
     }
 
     private static void primaryDataInitialization() {
@@ -26,8 +32,8 @@ public class Main {
             DataStorage storage = new DataStorage();
 
             List<PhonePlan> phonePlans = new ArrayList<>();
-            phonePlans.add(new PhonePlan("Базовый", "Обычный абонентский план", 0.11));
-            phonePlans.add(new PhonePlan("Роуминг", "Абонентский план с роумингом", 0.52));
+            phonePlans.add(new PhonePlan("Базовый", "Обычный абонентский план", 0.003));
+            phonePlans.add(new PhonePlan("Роуминг", "Абонентский план с роумингом", 0.011));
             storage.savePhonePlans(phonePlans);
 
             List<PhoneService> services = new ArrayList<>();
@@ -39,19 +45,13 @@ public class Main {
             List<User> users = new ArrayList<>();
             users.add(new Admin("admin", "admin"));
             users.add(new Subscriber("stas", "lab1", "+375427776666", 10, 134,
-                    new ArrayList<PhoneService>(), phonePlans.get(0), false));
+                    new ArrayList<PhoneService>(), phonePlans.get(0), false, true));
+            ((Subscriber)users.get(1)).addService(services.get(1));
             storage.saveUsers(users);
 
             List<Request> requests = new ArrayList<>();
-            requests.add(new PhoneChangeRequest("Запрос", "Запрос на изменение номера телефона",
-                    users.get(1).getUsername(), "+375428889966"));
+            requests.add(new PhoneChangeRequest(users.get(1).getUsername(), "+375428889966"));
             storage.saveRequests(requests);
-
-            users = storage.getUsers();
-            services = storage.getPhoneServices();
-            requests = storage.getRequests();
-            phonePlans = storage.getPhonePlans();
-            System.out.println("Ok");
         }
         catch (Exception exception) {
             System.out.println(exception.getMessage());

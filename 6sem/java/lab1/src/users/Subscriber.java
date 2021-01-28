@@ -4,8 +4,12 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import station.PhonePlan;
 import station.PhoneService;
+import users.requests.DeclineServiceRequest;
+import users.requests.PhoneChangeRequest;
+import users.requests.Request;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Subscriber extends User{
     private String _phoneNumber;
@@ -21,7 +25,7 @@ public class Subscriber extends User{
     }
 
     public Subscriber(String username, String password, String phoneNumber, double accountMoney, double phoneCallSeconds,
-                      List<PhoneService> services, PhonePlan phonePlan, boolean isUserDisconnected) {
+                      List<PhoneService> services, PhonePlan phonePlan, boolean isUserDisconnected, boolean isServicesPaid) {
         super(username, password);
         _phoneNumber = phoneNumber;
         _accountMoney = accountMoney;
@@ -29,6 +33,7 @@ public class Subscriber extends User{
         _services = services;
         _phonePlan = phonePlan;
         _isUserDisconnected = isUserDisconnected;
+        _isServicesPaid = isServicesPaid;
     }
 
     public String getPhoneNumber() {
@@ -89,17 +94,17 @@ public class Subscriber extends User{
     }
 
     public void addService(PhoneService service) throws Exception{
-        if(_services.contains(service)) {
+        if(_services.stream().map(s -> s.getName()).collect(Collectors.toList()).contains(service.getName())) {
             throw new Exception("Уже есть такая услуга");
         }
         _services.add(service);
     }
 
-    public void removeService(PhoneService service) throws Exception{
-        if(!_services.contains(service)) {
+    public Request removeServiceRequest(PhoneService service) throws Exception{
+        if(!_services.stream().map(s -> s.getName()).collect(Collectors.toList()).contains(service.getName())) {
             throw new Exception("Абонент не подключен к этой услуге");
         }
-        _services.remove(service);
+        return new DeclineServiceRequest(getUsername(), service);
     }
 
     public void makeServicesUnpaid() throws Exception {
@@ -132,15 +137,15 @@ public class Subscriber extends User{
         _isServicesPaid = true;
     }
 
-    public void changePhoneNumber(String newPhoneNumber) throws Exception {
+    public Request changePhoneNumberRequest(String newPhoneNumber) throws Exception {
         if(newPhoneNumber.equals(_phoneNumber)) {
             throw new Exception("Попытка изменения номера на текущий номер");
         }
-        _phoneNumber = newPhoneNumber;
+        return new PhoneChangeRequest(this.getUsername(), _phoneNumber);
     }
 
     public void changePhonePlan(PhonePlan plan) throws Exception {
-        if(plan.equals(_phonePlan)) {
+        if(plan.getName().equals(_phonePlan.getName())) {
             throw new Exception("Такой тарифный план уже установлен");
         }
         _phonePlan = plan;
@@ -150,6 +155,9 @@ public class Subscriber extends User{
         double debt = getPhoneCallDebt();
         if(debt > _accountMoney) {
             throw new Exception("Недостаточно денег на счёте");
+        }
+        if(debt == 0) {
+            throw new Exception("Всё оплачено");
         }
         _accountMoney -= debt;
         _phoneCallSeconds = 0;
@@ -170,5 +178,18 @@ public class Subscriber extends User{
             throw new Exception("Разговор не может длиться меньше одной секунды");
         }
         _phoneCallSeconds += seconds;
+    }
+
+    @Override
+    public String toString() {
+        return "Аккаунт пользователя " + getUsername() + ":" +
+                "\nНомер телефона='" + _phoneNumber + '\'' +
+                "\nОстаток на счёте=" + _accountMoney +
+                "\nКоличество неоплаченных секунд=" + _phoneCallSeconds +
+                "\nОплачены ли сервисы=" + (_isServicesPaid ? "Да" : "Нет") +
+                "\nСписок сервисов=" + _services +
+                "\nТарифный план=" + _phonePlan +
+                "\nСостояние аккаунта=" + (_isUserDisconnected ? "Отключен" : "Подключен") +
+                '}';
     }
 }

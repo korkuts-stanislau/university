@@ -1,6 +1,2 @@
 6) Make subscriber panel
-8) Make subscriber can do requests to admin for phone number changing and remove services
 10) Make admin panel
-11) Make admin can look at subscriber requests and approve there with admin panel
-12) Make admin can disconnect subscriber because of non-payment
-14) Refactor requests realization. Make the code meaningful.

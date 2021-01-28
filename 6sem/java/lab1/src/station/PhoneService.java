@@ -15,4 +15,9 @@ public class PhoneService extends PhoneEntity {
     }
 
     public void setPrice(double price) { _price = price; }
+
+    @Override
+    public String toString() {
+        return String.format("Услуга: %s\n%s\nСтоимость в месяц %f", getName(), getDescription(), getPrice());
+    }
 }

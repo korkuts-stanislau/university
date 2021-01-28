@@ -17,4 +17,9 @@ public class PhonePlan extends PhoneEntity{
     public void setPricePerCallSecond(double pricePerCallSecond) {
         _pricePerCallSecond = pricePerCallSecond;
     }
+
+    @Override
+    public String toString() {
+        return String.format("Тариф %s\n%s\nЦена за секунду разговора %f", getName(), getDescription(), getPricePerCallSecond());
+    }
 }

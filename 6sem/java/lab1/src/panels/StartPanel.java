@@ -1,7 +1,9 @@
 package panels;
 
+import data.DataStorage;
 import station.PhonePlan;
 import station.PhoneService;
+import users.Admin;
 import users.Subscriber;
 import users.User;
 
@@ -9,12 +11,64 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class AuthorizationPanel {
+public class StartPanel extends Panel {
     private final int _usernameMinLength = 4;
     private final int _passwordMinLength = 4;
-    private final int phoneCode = 37542;
 
-    public User authorize(List<User> users) throws Exception {
+    @Override
+    public void menu() {
+        while(true) {
+            System.out.println("Меню");
+            System.out.println("1. Войти");
+            System.out.println("2. Регистрация");
+            System.out.println("3. Выход");
+            System.out.println("Сделайте выбор");
+            int choice;
+            while(true){
+                try{
+                    choice = Integer.parseInt(getReader().nextLine());
+                    if(choice < 1 || choice > 3) throw new Exception("");
+                    break;
+                }
+                catch (Exception exception) {
+                    System.out.println("Вы ввели неверное значение, попробуйте снова");
+                }
+            }
+            try {
+                DataStorage storage = new DataStorage();
+                User user;
+                switch (choice) {
+                    case 1:
+                        user = authorize(storage.getUsers());
+                        if(user instanceof Subscriber) {
+                            Subscriber sub = (Subscriber) user;
+                            SubscriberPanel panel = new SubscriberPanel(sub);
+                            panel.menu();
+                        }
+                        if(user instanceof Admin) {
+                            Admin admin = (Admin) user;
+                            AdminPanel panel = new AdminPanel(admin);
+                            panel.menu();
+                        }
+                        break;
+                    case 2:
+                        List<User> users = storage.getUsers();
+                        user = register(users, storage.getPhonePlans());
+                        users.add(user);
+                        storage.saveUsers(users);
+                        break;
+                    case 3:
+                        return;
+                    default: break;
+                }
+            }
+            catch (Exception exception) {
+                System.out.println(exception.getMessage());
+            }
+        }
+    }
+
+    private User authorize(List<User> users) throws Exception {
         Scanner reader = new Scanner(System.in);
 
         System.out.println("Авторизация пользователя");
@@ -41,7 +95,7 @@ public class AuthorizationPanel {
         }
     }
 
-    public User register(List<User> users, List<PhonePlan> phonePlans) throws Exception {
+    private User register(List<User> users, List<PhonePlan> phonePlans) throws Exception {
         Scanner reader = new Scanner(System.in);
 
         System.out.println("Регистрация пользователя");
@@ -69,7 +123,7 @@ public class AuthorizationPanel {
         int i = 1;
         for (PhonePlan plan :
                 phonePlans) {
-            System.out.println(String.format("\n%d)%s\n%s\nPrice for one second is %.3f", i, plan.getName(),
+            System.out.println(String.format("\n%d)%s\n%s\nЦена за одну секунду разговора %.3f", i, plan.getName(),
                     plan.getDescription(), plan.getPricePerCallSecond()));
             i++;
         }
@@ -86,8 +140,9 @@ public class AuthorizationPanel {
         }
         PhonePlan phonePlan = phonePlans.get(choiceNumber - 1);
 
+        System.out.println("Вы успешно зарегистрированы");
         return new Subscriber(username, password, phoneNumber, 0, 0,
-                new ArrayList<PhoneService>(), phonePlan, false);
+                new ArrayList<PhoneService>(), phonePlan, false, true);
     }
 
     private String makeNewPhoneNumber(List<User> users) throws Exception {
@@ -103,7 +158,7 @@ public class AuthorizationPanel {
         }
         for(int i = 1000000; i < 99999999; i++) {
             if(!phoneNumbersWithoutCode.contains(i)) {
-                return String.format("+%d%d", phoneCode, i);
+                return String.format("+%d%d", getPhoneCode(), i);
             }
         }
         throw new Exception("Все номера закончились");
