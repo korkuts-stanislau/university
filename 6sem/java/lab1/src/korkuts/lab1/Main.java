@@ -8,6 +8,7 @@ import users.Admin;
 import users.Subscriber;
 import users.User;
 import users.requests.DeclineServiceRequest;
+import users.requests.PhoneChangeRequest;
 import users.requests.Request;
 
 import java.util.ArrayList;
@@ -16,14 +17,12 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello world");
         primaryDataInitialization();
     }
 
     private static void primaryDataInitialization() {
         try {
             Path path = Path.getPath();
-            System.out.println(path.commonPath);
             DataStorage storage = new DataStorage();
 
             List<PhonePlan> phonePlans = new ArrayList<>();
@@ -39,11 +38,20 @@ public class Main {
 
             List<User> users = new ArrayList<>();
             users.add(new Admin("admin", "admin"));
-            users.add(new Subscriber("stas", "lab1", "+375447776666", 10, 134,
+            users.add(new Subscriber("stas", "lab1", "+375427776666", 10, 134,
                     new ArrayList<PhoneService>(), phonePlans.get(0), false));
             storage.saveUsers(users);
 
+            List<Request> requests = new ArrayList<>();
+            requests.add(new PhoneChangeRequest("Запрос", "Запрос на изменение номера телефона",
+                    users.get(1).getUsername(), "+375428889966"));
+            storage.saveRequests(requests);
 
+            users = storage.getUsers();
+            services = storage.getPhoneServices();
+            requests = storage.getRequests();
+            phonePlans = storage.getPhonePlans();
+            System.out.println("Ok");
         }
         catch (Exception exception) {
             System.out.println(exception.getMessage());

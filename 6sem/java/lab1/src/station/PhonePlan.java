@@ -1,14 +1,20 @@
 package station;
 
 public class PhonePlan extends PhoneEntity{
-    private double _price;
+    private double _pricePerCallSecond;
+
+    public PhonePlan() { }
 
     public PhonePlan(String name, String description, double pricePerCallSecond) {
         super(name, description);
-        _price = pricePerCallSecond;
+        _pricePerCallSecond = pricePerCallSecond;
     }
 
     public double getPricePerCallSecond() {
-        return _price;
+        return _pricePerCallSecond;
+    }
+
+    public void setPricePerCallSecond(double pricePerCallSecond) {
+        _pricePerCallSecond = pricePerCallSecond;
     }
 }

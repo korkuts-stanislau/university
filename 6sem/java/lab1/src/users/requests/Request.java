@@ -1,9 +1,11 @@
 package users.requests;
 
 public abstract class Request {
-    private final String _name;
-    private final String _description;
-    private final String _username;
+    private String _name;
+    private String _description;
+    private String _username;
+
+    public Request() {}
 
     public Request(String name, String description, String username){
         _name = name;
@@ -21,5 +23,17 @@ public abstract class Request {
 
     public String getUsername() {
         return _username;
+    }
+
+    public void setName(String name) {
+        _name = name;
+    }
+
+    public void setDescription(String description) {
+        _description = description;
+    }
+
+    public void setUsername(String username) {
+        _username = username;
     }
 }

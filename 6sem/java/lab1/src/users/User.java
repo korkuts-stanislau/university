@@ -1,8 +1,12 @@
 package users;
 
 public abstract class User {
-    private final String _username;
-    private final String _password;
+    private String _username;
+    private String _password;
+
+    public User() {
+
+    }
 
     public User(String username, String password){
         _username = username;
@@ -16,4 +20,8 @@ public abstract class User {
     public String getPassword() {
         return _password;
     }
+
+    public void setUsername(String username) { _username = username; }
+
+    public void setPassword(String password) { _password = password; }
 }

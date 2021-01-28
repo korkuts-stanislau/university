@@ -1,5 +1,6 @@
 package users;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import station.PhonePlan;
 import station.PhoneService;
@@ -11,9 +12,13 @@ public class Subscriber extends User{
     private double _accountMoney;
     private double _phoneCallSeconds;
     private boolean _isServicesPaid;
-    private final List<PhoneService> _services;
+    private List<PhoneService> _services;
     private PhonePlan _phonePlan;
     private boolean _isUserDisconnected;
+
+    public Subscriber() {
+        
+    }
 
     public Subscriber(String username, String password, String phoneNumber, double accountMoney, double phoneCallSeconds,
                       List<PhoneService> services, PhonePlan phonePlan, boolean isUserDisconnected) {
@@ -42,16 +47,45 @@ public class Subscriber extends User{
         return _services;
     }
 
-    public boolean isServicesPaid() {
+    public boolean getIsServicesPaid() {
         return _isServicesPaid;
     }
 
+    @JsonIgnore
     public double getPhoneCallDebt() {
         return _phoneCallSeconds * _phonePlan.getPricePerCallSecond();
     }
 
     public PhonePlan getPhonePlan() {
         return _phonePlan;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        _phoneNumber = phoneNumber;
+    }
+
+    public void setAccountMoney(double accountMoney) {
+        _accountMoney = accountMoney;
+    }
+
+    public void setPhoneCallSeconds(double phoneCallSeconds) {
+        _phoneCallSeconds = phoneCallSeconds;
+    }
+
+    public void setIsServicesPaid(boolean isServicesPaid) {
+        _isServicesPaid = isServicesPaid;
+    }
+
+    public void setServices(List<PhoneService> services) {
+        _services = services;
+    }
+
+    public void setPhonePlan(PhonePlan phonePlan) {
+        _phonePlan = phonePlan;
+    }
+
+    public void setIsUserDisconnected(boolean isUserDisconnected) {
+        _isUserDisconnected = isUserDisconnected;
     }
 
     public void addService(PhoneService service) throws Exception{
