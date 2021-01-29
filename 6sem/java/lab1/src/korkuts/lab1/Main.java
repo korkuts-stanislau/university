@@ -1,7 +1,6 @@
 package korkuts.lab1;
 
 import data.DataStorage;
-import data.Path;
 import panels.StartPanel;
 import station.PhonePlan;
 import station.PhoneService;
@@ -17,7 +16,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        //primaryDataInitialization();
+        primaryDataInitialization();
         start();
     }
 
@@ -28,7 +27,6 @@ public class Main {
 
     private static void primaryDataInitialization() {
         try {
-            Path path = Path.getPath();
             DataStorage storage = new DataStorage();
 
             List<PhonePlan> phonePlans = new ArrayList<>();
@@ -45,7 +43,7 @@ public class Main {
             List<User> users = new ArrayList<>();
             users.add(new Admin("admin", "admin"));
             users.add(new Subscriber("stas", "lab1", "+375427776666", 10, 134,
-                    new ArrayList<PhoneService>(), phonePlans.get(0), false, true));
+                    new ArrayList<>(), phonePlans.get(0), false, true));
             ((Subscriber)users.get(1)).addService(services.get(1));
             storage.saveUsers(users);
 
